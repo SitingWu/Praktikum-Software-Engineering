@@ -15,7 +15,7 @@ add_executable(geom main.cpp)
 
 target_link_libraries(geom geometry2d util)
 
-
+//compare_test
 add_executable(compare_test ${PROJECT_SOURCE_DIR}/util/src/compare_test.cpp)
 target_link_libraries(compare_test util)
 
@@ -25,5 +25,26 @@ if(CODE_COVERAGE)
   target_code_coverage(compare_test AUTO ALL)
 endif()
 # LMT_SEL_END
+
+//pose_test
+add_executable(pose_test ${PROJECT_SOURCE_DIR}/geometry2d/src/pose_test.cpp)
+target_link_libraries(compare_test util)
+# LMT_SEL_BEGIN
+add_test(NAME PoseTest COMMAND pose_test)
+if(CODE_COVERAGE)
+  target_code_coverage(pose_test AUTO ALL)
+endif()
+# LMT_SEL_END
+
+//point_test
+add_executable(point_test ${PROJECT_SOURCE_DIR}/geometry2d/src/point_test.cpp)
+target_link_libraries(compare_test util)
+# LMT_SEL_BEGIN
+add_test(NAME PointTest COMMAND point_test)
+if(CODE_COVERAGE)
+  target_code_coverage(point_test AUTO ALL)
+endif()
+# LMT_SEL_END
+
 
 
