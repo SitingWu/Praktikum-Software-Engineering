@@ -6,7 +6,9 @@
 
 
 Point createPoint(double distance, Angle angle)
-{
+{   //distance =Radios
+    //x=r*cos(a)
+    //y=r*sin(a)
     return Point{distance * cos(getValueBetweenMinusPiAndPi(angle)),
                  distance * sin(getValueBetweenMinusPiAndPi(angle))};
 }
