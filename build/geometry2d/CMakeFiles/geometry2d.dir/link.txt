@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgeometry2d.a  
+/usr/bin/ranlib libgeometry2d.a

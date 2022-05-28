@@ -1,0 +1,12 @@
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles/rebuild_cache.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles/edit_cache.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles/compare_test.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles/geom.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/CMakeFiles/rebuild_cache.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/CMakeFiles/edit_cache.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/CMakeFiles/geometry2d.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/CMakeFiles/rebuild_cache.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/CMakeFiles/edit_cache.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/CMakeFiles/util.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/include/CMakeFiles/rebuild_cache.dir
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/include/CMakeFiles/edit_cache.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../util/include/compare.h
+
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp
+compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.h
+cmath
+-
+

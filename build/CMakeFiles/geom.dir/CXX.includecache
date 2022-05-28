@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../geometry2d/include/geo_compare.h
+compare.h
+../geometry2d/include/compare.h
+
+../geometry2d/include/line.h
+angle.h
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../geometry2d/include/point.h
+angle.h
+../geometry2d/include/angle.h
+
+../geometry2d/include/pose.h
+angle.h
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../util/include/compare.h
+
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/main.cpp
+geo_compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geo_compare.h
+compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/compare.h
+angle.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/angle.h
+line.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/line.h
+point.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/point.h
+pose.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/pose.h
+

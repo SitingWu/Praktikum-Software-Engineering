@@ -1,0 +1,8 @@
+version: '3'
+services:
+  dev:
+    image: makeappdev/cpp-dev
+    volumes:
+      - ./:/home
+    working_dir: /home
+    command: bash

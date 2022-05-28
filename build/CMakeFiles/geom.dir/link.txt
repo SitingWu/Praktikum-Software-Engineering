@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/geom.dir/main.cpp.o  -o geom  geometry2d/libgeometry2d.a util/libutil.a 
