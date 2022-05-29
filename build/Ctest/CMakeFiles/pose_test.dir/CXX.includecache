@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../geometry2d/include/geo_compare.h
+compare.h
+../geometry2d/include/compare.h
+
+../geometry2d/include/point.h
+angle.h
+../geometry2d/include/angle.h
+
+../geometry2d/include/pose.h
+angle.h
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../util/include/compare.h
+
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/pose_test.cpp
+pose.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/pose.h
+cassert
+-
+cstdlib
+-
+cmath
+-
+geo_compare.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/geo_compare.h
+

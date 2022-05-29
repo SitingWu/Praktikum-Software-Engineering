@@ -1,4 +1,4 @@
-# Install script for directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/include
+# Install script for directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

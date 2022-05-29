@@ -1,12 +1,14 @@
 #include "point.h"
 
 #include <cmath>
-
+#include <stdio.h>
 #include "geo_compare.h"
 
 
 Point createPoint(double distance, Angle angle)
-{
+{   //distance =Radios
+    //x=r*cos(a)
+    //y=r*sin(a)
     return Point{distance * cos(getValueBetweenMinusPiAndPi(angle)),
                  distance * sin(getValueBetweenMinusPiAndPi(angle))};
 }
@@ -46,6 +48,8 @@ void rotate(Point& point, Angle angle)
     double angleValue = getValueBetweenMinusPiAndPi(angle);
     double xVal = point.x * cos(angleValue) - point.y * sin(angleValue);
     double yVal = point.x * sin(angleValue) + point.y * cos(angleValue);
+   
+   
     point.x = xVal;
     point.y = yVal;
 }

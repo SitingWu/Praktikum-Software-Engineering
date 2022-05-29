@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/point_test.dir/point_test.cpp.o  -o point_test  ../geometry2d/libgeometry2d.a ../util/libutil.a 
