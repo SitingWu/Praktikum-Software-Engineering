@@ -1,0 +1,1145 @@
+Start testing: Jun 13 15:44 CEST
+----------------------------------------------------------
+1/42 Testing: isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue
+1/42 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzyEqualGoogleTest
+[ RUN      ] isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue
+[       OK ] isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue (0 ms)
+[----------] 1 test from isFuzzyEqualGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue" end time: Jun 13 15:44 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/42 Testing: isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue
+2/42 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzyEqualGoogleTest
+[ RUN      ] isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue
+[       OK ] isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue (0 ms)
+[----------] 1 test from isFuzzyEqualGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue" end time: Jun 13 15:44 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/42 Testing: isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse
+3/42 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzyEqualGoogleTest
+[ RUN      ] isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse
+[       OK ] isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse (0 ms)
+[----------] 1 test from isFuzzyEqualGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse" end time: Jun 13 15:44 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/42 Testing: isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse
+4/42 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzyEqualGoogleTest
+[ RUN      ] isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse
+[       OK ] isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse (0 ms)
+[----------] 1 test from isFuzzyEqualGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse" end time: Jun 13 15:44 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/42 Testing: isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue
+5/42 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzyEqualGoogleTest
+[ RUN      ] isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue
+[       OK ] isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue (0 ms)
+[----------] 1 test from isFuzzyEqualGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue" end time: Jun 13 15:44 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/42 Testing: isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse
+6/42 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzyEqualGoogleTest
+[ RUN      ] isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse
+[       OK ] isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse (0 ms)
+[----------] 1 test from isFuzzyEqualGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse" end time: Jun 13 15:44 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/42 Testing: isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue
+7/42 Test: isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzyGreaterGoogleTest
+[ RUN      ] isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue
+[       OK ] isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue (0 ms)
+[----------] 1 test from isFuzzyGreaterGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue" end time: Jun 13 15:44 CEST
+"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/42 Testing: isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse
+8/42 Test: isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzyGreaterGoogleTest
+[ RUN      ] isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse
+[       OK ] isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse (0 ms)
+[----------] 1 test from isFuzzyGreaterGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse" end time: Jun 13 15:44 CEST
+"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/42 Testing: isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse
+9/42 Test: isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzyGreaterGoolgeTest
+[ RUN      ] isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse
+[       OK ] isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse (0 ms)
+[----------] 1 test from isFuzzyGreaterGoolgeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse" end time: Jun 13 15:44 CEST
+"isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/42 Testing: isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue
+10/42 Test: isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzySmallerGoogleTest
+[ RUN      ] isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue
+[       OK ] isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue (0 ms)
+[----------] 1 test from isFuzzySmallerGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue" end time: Jun 13 15:44 CEST
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/42 Testing: isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse
+11/42 Test: isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzySmallerGoogleTest
+[ RUN      ] isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse
+[       OK ] isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse (0 ms)
+[----------] 1 test from isFuzzySmallerGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse" end time: Jun 13 15:44 CEST
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/42 Testing: isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse
+12/42 Test: isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isFuzzySmallerGoogleTest
+[ RUN      ] isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse
+[       OK ] isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse (0 ms)
+[----------] 1 test from isFuzzySmallerGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse" end time: Jun 13 15:44 CEST
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/42 Testing: isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue
+13/42 Test: isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isStrictFuzzyGreaterGoogleTest
+[ RUN      ] isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue
+[       OK ] isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue (0 ms)
+[----------] 1 test from isStrictFuzzyGreaterGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue" end time: Jun 13 15:44 CEST
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/42 Testing: isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse
+14/42 Test: isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isStrictFuzzyGreaterGoogleTest
+[ RUN      ] isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse
+[       OK ] isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse (0 ms)
+[----------] 1 test from isStrictFuzzyGreaterGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse" end time: Jun 13 15:44 CEST
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/42 Testing: isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse
+15/42 Test: isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isStrictFuzzyGreaterGoogleTest
+[ RUN      ] isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse
+[       OK ] isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse (0 ms)
+[----------] 1 test from isStrictFuzzyGreaterGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse" end time: Jun 13 15:44 CEST
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/42 Testing: isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue
+16/42 Test: isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isStrictFuzzySmallerGoogleTest
+[ RUN      ] isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue
+[       OK ] isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue (0 ms)
+[----------] 1 test from isStrictFuzzySmallerGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue" end time: Jun 13 15:44 CEST
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/42 Testing: isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse
+17/42 Test: isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isStrictFuzzySmallerGoogleTest
+[ RUN      ] isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse
+[       OK ] isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse (0 ms)
+[----------] 1 test from isStrictFuzzySmallerGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse" end time: Jun 13 15:44 CEST
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/42 Testing: isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse
+18/42 Test: isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_google_test" "--gtest_filter=isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isStrictFuzzySmallerGoogleTest
+[ RUN      ] isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse
+[       OK ] isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse (0 ms)
+[----------] 1 test from isStrictFuzzySmallerGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse" end time: Jun 13 15:44 CEST
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/42 Testing: creatPointGoogleTest.CreatPointTest_1
+19/42 Test: creatPointGoogleTest.CreatPointTest_1
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=creatPointGoogleTest.CreatPointTest_1" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"creatPointGoogleTest.CreatPointTest_1" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = creatPointGoogleTest.CreatPointTest_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from creatPointGoogleTest
+[ RUN      ] creatPointGoogleTest.CreatPointTest_1
+[       OK ] creatPointGoogleTest.CreatPointTest_1 (0 ms)
+[----------] 1 test from creatPointGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"creatPointGoogleTest.CreatPointTest_1" end time: Jun 13 15:44 CEST
+"creatPointGoogleTest.CreatPointTest_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/42 Testing: creatPointGoogleTest.CreatPointTest_2
+20/42 Test: creatPointGoogleTest.CreatPointTest_2
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=creatPointGoogleTest.CreatPointTest_2" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"creatPointGoogleTest.CreatPointTest_2" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = creatPointGoogleTest.CreatPointTest_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from creatPointGoogleTest
+[ RUN      ] creatPointGoogleTest.CreatPointTest_2
+[       OK ] creatPointGoogleTest.CreatPointTest_2 (0 ms)
+[----------] 1 test from creatPointGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"creatPointGoogleTest.CreatPointTest_2" end time: Jun 13 15:44 CEST
+"creatPointGoogleTest.CreatPointTest_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/42 Testing: creatPointGoogleTest.CreatPointTest_3
+21/42 Test: creatPointGoogleTest.CreatPointTest_3
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=creatPointGoogleTest.CreatPointTest_3" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"creatPointGoogleTest.CreatPointTest_3" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = creatPointGoogleTest.CreatPointTest_3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from creatPointGoogleTest
+[ RUN      ] creatPointGoogleTest.CreatPointTest_3
+[       OK ] creatPointGoogleTest.CreatPointTest_3 (0 ms)
+[----------] 1 test from creatPointGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"creatPointGoogleTest.CreatPointTest_3" end time: Jun 13 15:44 CEST
+"creatPointGoogleTest.CreatPointTest_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/42 Testing: creatPointGoogleTest.CreatPointTest_4
+22/42 Test: creatPointGoogleTest.CreatPointTest_4
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=creatPointGoogleTest.CreatPointTest_4" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"creatPointGoogleTest.CreatPointTest_4" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = creatPointGoogleTest.CreatPointTest_4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from creatPointGoogleTest
+[ RUN      ] creatPointGoogleTest.CreatPointTest_4
+[       OK ] creatPointGoogleTest.CreatPointTest_4 (0 ms)
+[----------] 1 test from creatPointGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"creatPointGoogleTest.CreatPointTest_4" end time: Jun 13 15:44 CEST
+"creatPointGoogleTest.CreatPointTest_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/42 Testing: creatPointGoogleTest.CreatPointTest_6
+23/42 Test: creatPointGoogleTest.CreatPointTest_6
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=creatPointGoogleTest.CreatPointTest_6" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"creatPointGoogleTest.CreatPointTest_6" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = creatPointGoogleTest.CreatPointTest_6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from creatPointGoogleTest
+[ RUN      ] creatPointGoogleTest.CreatPointTest_6
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/point_test.cpp:64: Failure
+Value of: result
+  Actual: false
+Expected: true
+[  FAILED  ] creatPointGoogleTest.CreatPointTest_6 (0 ms)
+[----------] 1 test from creatPointGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] creatPointGoogleTest.CreatPointTest_6
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"creatPointGoogleTest.CreatPointTest_6" end time: Jun 13 15:44 CEST
+"creatPointGoogleTest.CreatPointTest_6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/42 Testing: isEqualGoogleTest.isEqual_ExpectTrue
+24/42 Test: isEqualGoogleTest.isEqual_ExpectTrue
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=isEqualGoogleTest.isEqual_ExpectTrue" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isEqualGoogleTest.isEqual_ExpectTrue" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isEqualGoogleTest.isEqual_ExpectTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isEqualGoogleTest
+[ RUN      ] isEqualGoogleTest.isEqual_ExpectTrue
+[       OK ] isEqualGoogleTest.isEqual_ExpectTrue (0 ms)
+[----------] 1 test from isEqualGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isEqualGoogleTest.isEqual_ExpectTrue" end time: Jun 13 15:44 CEST
+"isEqualGoogleTest.isEqual_ExpectTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/42 Testing: isEqualGoogleTest.isEqual_ExpectFalseX
+25/42 Test: isEqualGoogleTest.isEqual_ExpectFalseX
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=isEqualGoogleTest.isEqual_ExpectFalseX" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isEqualGoogleTest.isEqual_ExpectFalseX" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isEqualGoogleTest.isEqual_ExpectFalseX
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isEqualGoogleTest
+[ RUN      ] isEqualGoogleTest.isEqual_ExpectFalseX
+[       OK ] isEqualGoogleTest.isEqual_ExpectFalseX (0 ms)
+[----------] 1 test from isEqualGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isEqualGoogleTest.isEqual_ExpectFalseX" end time: Jun 13 15:44 CEST
+"isEqualGoogleTest.isEqual_ExpectFalseX" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/42 Testing: isEqualGoogleTest.isEqual_ExpectFalseY
+26/42 Test: isEqualGoogleTest.isEqual_ExpectFalseY
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=isEqualGoogleTest.isEqual_ExpectFalseY" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isEqualGoogleTest.isEqual_ExpectFalseY" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isEqualGoogleTest.isEqual_ExpectFalseY
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isEqualGoogleTest
+[ RUN      ] isEqualGoogleTest.isEqual_ExpectFalseY
+[       OK ] isEqualGoogleTest.isEqual_ExpectFalseY (0 ms)
+[----------] 1 test from isEqualGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isEqualGoogleTest.isEqual_ExpectFalseY" end time: Jun 13 15:44 CEST
+"isEqualGoogleTest.isEqual_ExpectFalseY" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/42 Testing: isEqualGoogleTest.isEqual_ExpectFalseXY
+27/42 Test: isEqualGoogleTest.isEqual_ExpectFalseXY
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=isEqualGoogleTest.isEqual_ExpectFalseXY" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"isEqualGoogleTest.isEqual_ExpectFalseXY" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = isEqualGoogleTest.isEqual_ExpectFalseXY
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from isEqualGoogleTest
+[ RUN      ] isEqualGoogleTest.isEqual_ExpectFalseXY
+[       OK ] isEqualGoogleTest.isEqual_ExpectFalseXY (0 ms)
+[----------] 1 test from isEqualGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"isEqualGoogleTest.isEqual_ExpectFalseXY" end time: Jun 13 15:44 CEST
+"isEqualGoogleTest.isEqual_ExpectFalseXY" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/42 Testing: getLengthGoogleTest.getLengthExpectTrue_1
+28/42 Test: getLengthGoogleTest.getLengthExpectTrue_1
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=getLengthGoogleTest.getLengthExpectTrue_1" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"getLengthGoogleTest.getLengthExpectTrue_1" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = getLengthGoogleTest.getLengthExpectTrue_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from getLengthGoogleTest
+[ RUN      ] getLengthGoogleTest.getLengthExpectTrue_1
+[       OK ] getLengthGoogleTest.getLengthExpectTrue_1 (0 ms)
+[----------] 1 test from getLengthGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"getLengthGoogleTest.getLengthExpectTrue_1" end time: Jun 13 15:44 CEST
+"getLengthGoogleTest.getLengthExpectTrue_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/42 Testing: getLengthGoogleTest.getLengthExpectTrue_2
+29/42 Test: getLengthGoogleTest.getLengthExpectTrue_2
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=getLengthGoogleTest.getLengthExpectTrue_2" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"getLengthGoogleTest.getLengthExpectTrue_2" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = getLengthGoogleTest.getLengthExpectTrue_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from getLengthGoogleTest
+[ RUN      ] getLengthGoogleTest.getLengthExpectTrue_2
+[       OK ] getLengthGoogleTest.getLengthExpectTrue_2 (0 ms)
+[----------] 1 test from getLengthGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"getLengthGoogleTest.getLengthExpectTrue_2" end time: Jun 13 15:44 CEST
+"getLengthGoogleTest.getLengthExpectTrue_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/42 Testing: getLengthGoogleTest.getLengthExpectTrue_3
+30/42 Test: getLengthGoogleTest.getLengthExpectTrue_3
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=getLengthGoogleTest.getLengthExpectTrue_3" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"getLengthGoogleTest.getLengthExpectTrue_3" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = getLengthGoogleTest.getLengthExpectTrue_3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from getLengthGoogleTest
+[ RUN      ] getLengthGoogleTest.getLengthExpectTrue_3
+[       OK ] getLengthGoogleTest.getLengthExpectTrue_3 (0 ms)
+[----------] 1 test from getLengthGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"getLengthGoogleTest.getLengthExpectTrue_3" end time: Jun 13 15:44 CEST
+"getLengthGoogleTest.getLengthExpectTrue_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/42 Testing: getLengthGoogleTest.getLengthExpectTrue_4
+31/42 Test: getLengthGoogleTest.getLengthExpectTrue_4
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=getLengthGoogleTest.getLengthExpectTrue_4" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"getLengthGoogleTest.getLengthExpectTrue_4" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = getLengthGoogleTest.getLengthExpectTrue_4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from getLengthGoogleTest
+[ RUN      ] getLengthGoogleTest.getLengthExpectTrue_4
+[       OK ] getLengthGoogleTest.getLengthExpectTrue_4 (0 ms)
+[----------] 1 test from getLengthGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"getLengthGoogleTest.getLengthExpectTrue_4" end time: Jun 13 15:44 CEST
+"getLengthGoogleTest.getLengthExpectTrue_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/42 Testing: getLengthGoogleTest.distanceToExpectTrue_2
+32/42 Test: getLengthGoogleTest.distanceToExpectTrue_2
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=getLengthGoogleTest.distanceToExpectTrue_2" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"getLengthGoogleTest.distanceToExpectTrue_2" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = getLengthGoogleTest.distanceToExpectTrue_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from getLengthGoogleTest
+[ RUN      ] getLengthGoogleTest.distanceToExpectTrue_2
+[       OK ] getLengthGoogleTest.distanceToExpectTrue_2 (0 ms)
+[----------] 1 test from getLengthGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"getLengthGoogleTest.distanceToExpectTrue_2" end time: Jun 13 15:44 CEST
+"getLengthGoogleTest.distanceToExpectTrue_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/42 Testing: getLengthGoogleTest.distanceToExpectTrue_3
+33/42 Test: getLengthGoogleTest.distanceToExpectTrue_3
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=getLengthGoogleTest.distanceToExpectTrue_3" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"getLengthGoogleTest.distanceToExpectTrue_3" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = getLengthGoogleTest.distanceToExpectTrue_3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from getLengthGoogleTest
+[ RUN      ] getLengthGoogleTest.distanceToExpectTrue_3
+[       OK ] getLengthGoogleTest.distanceToExpectTrue_3 (0 ms)
+[----------] 1 test from getLengthGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"getLengthGoogleTest.distanceToExpectTrue_3" end time: Jun 13 15:44 CEST
+"getLengthGoogleTest.distanceToExpectTrue_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/42 Testing: distanceToGoogleTest.distanceToExpectTrue_1
+34/42 Test: distanceToGoogleTest.distanceToExpectTrue_1
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=distanceToGoogleTest.distanceToExpectTrue_1" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"distanceToGoogleTest.distanceToExpectTrue_1" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = distanceToGoogleTest.distanceToExpectTrue_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from distanceToGoogleTest
+[ RUN      ] distanceToGoogleTest.distanceToExpectTrue_1
+[       OK ] distanceToGoogleTest.distanceToExpectTrue_1 (0 ms)
+[----------] 1 test from distanceToGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"distanceToGoogleTest.distanceToExpectTrue_1" end time: Jun 13 15:44 CEST
+"distanceToGoogleTest.distanceToExpectTrue_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/42 Testing: addPointsGoogleTest.addPointsTest_1
+35/42 Test: addPointsGoogleTest.addPointsTest_1
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=addPointsGoogleTest.addPointsTest_1" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"addPointsGoogleTest.addPointsTest_1" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = addPointsGoogleTest.addPointsTest_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from addPointsGoogleTest
+[ RUN      ] addPointsGoogleTest.addPointsTest_1
+[       OK ] addPointsGoogleTest.addPointsTest_1 (0 ms)
+[----------] 1 test from addPointsGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"addPointsGoogleTest.addPointsTest_1" end time: Jun 13 15:44 CEST
+"addPointsGoogleTest.addPointsTest_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/42 Testing: addPointsGoogleTest.addPointsTest_2
+36/42 Test: addPointsGoogleTest.addPointsTest_2
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=addPointsGoogleTest.addPointsTest_2" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"addPointsGoogleTest.addPointsTest_2" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = addPointsGoogleTest.addPointsTest_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from addPointsGoogleTest
+[ RUN      ] addPointsGoogleTest.addPointsTest_2
+[       OK ] addPointsGoogleTest.addPointsTest_2 (0 ms)
+[----------] 1 test from addPointsGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"addPointsGoogleTest.addPointsTest_2" end time: Jun 13 15:44 CEST
+"addPointsGoogleTest.addPointsTest_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/42 Testing: subtractPointsGoogleTest.subtractPointsTest_1
+37/42 Test: subtractPointsGoogleTest.subtractPointsTest_1
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=subtractPointsGoogleTest.subtractPointsTest_1" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"subtractPointsGoogleTest.subtractPointsTest_1" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = subtractPointsGoogleTest.subtractPointsTest_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from subtractPointsGoogleTest
+[ RUN      ] subtractPointsGoogleTest.subtractPointsTest_1
+[       OK ] subtractPointsGoogleTest.subtractPointsTest_1 (0 ms)
+[----------] 1 test from subtractPointsGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"subtractPointsGoogleTest.subtractPointsTest_1" end time: Jun 13 15:44 CEST
+"subtractPointsGoogleTest.subtractPointsTest_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/42 Testing: subtractPointsGoogleTest.subtractPointsTest_2
+38/42 Test: subtractPointsGoogleTest.subtractPointsTest_2
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=subtractPointsGoogleTest.subtractPointsTest_2" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"subtractPointsGoogleTest.subtractPointsTest_2" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = subtractPointsGoogleTest.subtractPointsTest_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from subtractPointsGoogleTest
+[ RUN      ] subtractPointsGoogleTest.subtractPointsTest_2
+[       OK ] subtractPointsGoogleTest.subtractPointsTest_2 (0 ms)
+[----------] 1 test from subtractPointsGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"subtractPointsGoogleTest.subtractPointsTest_2" end time: Jun 13 15:44 CEST
+"subtractPointsGoogleTest.subtractPointsTest_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/42 Testing: multiplyPointGoogleTest.multiplyPointTest_1
+39/42 Test: multiplyPointGoogleTest.multiplyPointTest_1
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=multiplyPointGoogleTest.multiplyPointTest_1" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"multiplyPointGoogleTest.multiplyPointTest_1" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = multiplyPointGoogleTest.multiplyPointTest_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from multiplyPointGoogleTest
+[ RUN      ] multiplyPointGoogleTest.multiplyPointTest_1
+[       OK ] multiplyPointGoogleTest.multiplyPointTest_1 (0 ms)
+[----------] 1 test from multiplyPointGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"multiplyPointGoogleTest.multiplyPointTest_1" end time: Jun 13 15:44 CEST
+"multiplyPointGoogleTest.multiplyPointTest_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/42 Testing: rotateGoogleTest.rotateTest_1
+40/42 Test: rotateGoogleTest.rotateTest_1
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=rotateGoogleTest.rotateTest_1" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"rotateGoogleTest.rotateTest_1" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = rotateGoogleTest.rotateTest_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from rotateGoogleTest
+[ RUN      ] rotateGoogleTest.rotateTest_1
+[       OK ] rotateGoogleTest.rotateTest_1 (0 ms)
+[----------] 1 test from rotateGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"rotateGoogleTest.rotateTest_1" end time: Jun 13 15:44 CEST
+"rotateGoogleTest.rotateTest_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/42 Testing: rotateGoogleTest.rotateTest_2
+41/42 Test: rotateGoogleTest.rotateTest_2
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=rotateGoogleTest.rotateTest_2" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"rotateGoogleTest.rotateTest_2" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = rotateGoogleTest.rotateTest_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from rotateGoogleTest
+[ RUN      ] rotateGoogleTest.rotateTest_2
+[       OK ] rotateGoogleTest.rotateTest_2 (0 ms)
+[----------] 1 test from rotateGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"rotateGoogleTest.rotateTest_2" end time: Jun 13 15:44 CEST
+"rotateGoogleTest.rotateTest_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/42 Testing: rotateGoogleTest.rotateTest_3
+42/42 Test: rotateGoogleTest.rotateTest_3
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_google_test" "--gtest_filter=rotateGoogleTest.rotateTest_3" "--gtest_also_run_disabled_tests"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
+"rotateGoogleTest.rotateTest_3" start time: Jun 13 15:44 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = rotateGoogleTest.rotateTest_3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from rotateGoogleTest
+[ RUN      ] rotateGoogleTest.rotateTest_3
+[       OK ] rotateGoogleTest.rotateTest_3 (0 ms)
+[----------] 1 test from rotateGoogleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"rotateGoogleTest.rotateTest_3" end time: Jun 13 15:44 CEST
+"rotateGoogleTest.rotateTest_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 13 15:44 CEST

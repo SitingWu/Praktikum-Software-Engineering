@@ -39,6 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-build/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/cmake_install.cmake")
 endif()
 
@@ -50,6 +55,16 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/include/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/src/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

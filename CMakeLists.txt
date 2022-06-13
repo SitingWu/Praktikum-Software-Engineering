@@ -7,6 +7,19 @@ include_directories(${PROJECT_SOURCE_DIR}/geometry2d/include)
 include(CTest)
 enable_testing()
 
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG origin/main)
+
+FetchContent_MakeAvailable(googletest)
+# Now these targets are available:
+# gtest
+# gtest_main
+
+include(GoogleTest)
+
 add_subdirectory(geometry2d)
 add_subdirectory(util)
 add_subdirectory(geometry2d/include)
@@ -23,7 +36,7 @@ target_link_libraries(geom geometry2d util)
 # LMT_SEL_BEGIN
 add_test(NAME CompareFuzzyTest COMMAND compare_test)
 if(CODE_COVERAGE)
-  target_code_coverage(compare_test AUTO ALL)
+  target_code_coverage(compare_google_test AUTO ALL)
 endif()
 # LMT_SEL_END
 

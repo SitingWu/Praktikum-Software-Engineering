@@ -56,6 +56,52 @@ CMAKE_BINARY_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +123,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -125,15 +182,170 @@ geometry2d/fast:
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/build
 .PHONY : geometry2d/fast
 
+src/angle.o: src/angle.cpp.o
+
+.PHONY : src/angle.o
+
+# target to build an object file
+src/angle.cpp.o:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o
+.PHONY : src/angle.cpp.o
+
+src/angle.i: src/angle.cpp.i
+
+.PHONY : src/angle.i
+
+# target to preprocess a source file
+src/angle.cpp.i:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.i
+.PHONY : src/angle.cpp.i
+
+src/angle.s: src/angle.cpp.s
+
+.PHONY : src/angle.s
+
+# target to generate assembly for a file
+src/angle.cpp.s:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.s
+.PHONY : src/angle.cpp.s
+
+src/geo_compare.o: src/geo_compare.cpp.o
+
+.PHONY : src/geo_compare.o
+
+# target to build an object file
+src/geo_compare.cpp.o:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o
+.PHONY : src/geo_compare.cpp.o
+
+src/geo_compare.i: src/geo_compare.cpp.i
+
+.PHONY : src/geo_compare.i
+
+# target to preprocess a source file
+src/geo_compare.cpp.i:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.i
+.PHONY : src/geo_compare.cpp.i
+
+src/geo_compare.s: src/geo_compare.cpp.s
+
+.PHONY : src/geo_compare.s
+
+# target to generate assembly for a file
+src/geo_compare.cpp.s:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.s
+.PHONY : src/geo_compare.cpp.s
+
+src/line.o: src/line.cpp.o
+
+.PHONY : src/line.o
+
+# target to build an object file
+src/line.cpp.o:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o
+.PHONY : src/line.cpp.o
+
+src/line.i: src/line.cpp.i
+
+.PHONY : src/line.i
+
+# target to preprocess a source file
+src/line.cpp.i:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.i
+.PHONY : src/line.cpp.i
+
+src/line.s: src/line.cpp.s
+
+.PHONY : src/line.s
+
+# target to generate assembly for a file
+src/line.cpp.s:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.s
+.PHONY : src/line.cpp.s
+
+src/point.o: src/point.cpp.o
+
+.PHONY : src/point.o
+
+# target to build an object file
+src/point.cpp.o:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o
+.PHONY : src/point.cpp.o
+
+src/point.i: src/point.cpp.i
+
+.PHONY : src/point.i
+
+# target to preprocess a source file
+src/point.cpp.i:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.i
+.PHONY : src/point.cpp.i
+
+src/point.s: src/point.cpp.s
+
+.PHONY : src/point.s
+
+# target to generate assembly for a file
+src/point.cpp.s:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.s
+.PHONY : src/point.cpp.s
+
+src/pose.o: src/pose.cpp.o
+
+.PHONY : src/pose.o
+
+# target to build an object file
+src/pose.cpp.o:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.o
+.PHONY : src/pose.cpp.o
+
+src/pose.i: src/pose.cpp.i
+
+.PHONY : src/pose.i
+
+# target to preprocess a source file
+src/pose.cpp.i:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.i
+.PHONY : src/pose.cpp.i
+
+src/pose.s: src/pose.cpp.s
+
+.PHONY : src/pose.s
+
+# target to generate assembly for a file
+src/pose.cpp.s:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.s
+.PHONY : src/pose.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... geometry2d"
+	@echo "... src/angle.o"
+	@echo "... src/angle.i"
+	@echo "... src/angle.s"
+	@echo "... src/geo_compare.o"
+	@echo "... src/geo_compare.i"
+	@echo "... src/geo_compare.s"
+	@echo "... src/line.o"
+	@echo "... src/line.i"
+	@echo "... src/line.s"
+	@echo "... src/point.o"
+	@echo "... src/point.i"
+	@echo "... src/point.s"
+	@echo "... src/pose.o"
+	@echo "... src/pose.i"
+	@echo "... src/pose.s"
 .PHONY : help
 
 

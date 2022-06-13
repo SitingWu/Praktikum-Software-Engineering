@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../geometry2d/include/geo_compare.h
+compare.h
+../geometry2d/include/compare.h
+
+../geometry2d/include/point.h
+angle.h
+../geometry2d/include/angle.h
+
+../util/include/compare.h
+
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.cpp
+angle.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.h
+cmath
+-
+geo_compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+point.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.cpp
+point.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+cmath
+-
+stdio.h
+-
+geo_compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+

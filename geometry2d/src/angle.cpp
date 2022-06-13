@@ -77,8 +77,9 @@ Angle subtractAngles(Angle one, Angle two)
 
 Angle createAngle(Point start, Point end)
 {
-    Point positionDifference = subtractPoints(end, start);
+    Point positionDifference = subtractPoints(end, start);//end.x-start.y
     return Angle{fixAngleRange(atan2(positionDifference.y, positionDifference.x))};
+                              //atan2(y,x) : arctan(y/x)
 }
 
 bool isEqual(Angle one, Angle two)

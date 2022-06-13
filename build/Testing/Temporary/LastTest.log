@@ -1,0 +1,94 @@
+Start testing: Jun 13 14:12 CEST
+----------------------------------------------------------
+1/6 Testing: CompareFuzzyTest
+1/6 Test: CompareFuzzyTest
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"CompareFuzzyTest" start time: Jun 13 14:12 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CompareFuzzyTest" end time: Jun 13 14:12 CEST
+"CompareFuzzyTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: PoseTest
+2/6 Test: PoseTest
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"PoseTest" start time: Jun 13 14:12 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PoseTest" end time: Jun 13 14:12 CEST
+"PoseTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: PointTest
+3/6 Test: PointTest
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"PointTest" start time: Jun 13 14:12 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PointTest" end time: Jun 13 14:12 CEST
+"PointTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: Geo_compareTest
+4/6 Test: Geo_compareTest
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/geo_compare_test"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"Geo_compareTest" start time: Jun 13 14:12 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Geo_compareTest" end time: Jun 13 14:12 CEST
+"Geo_compareTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: LineTest
+5/6 Test: LineTest
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"LineTest" start time: Jun 13 14:12 CEST
+Output:
+----------------------------------------------------------
+line_test: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/line_test.cpp:31: void testCreateLine(): Assertion `result == true' failed.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Failed.
+"LineTest" end time: Jun 13 14:12 CEST
+"LineTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: AngleTest
+6/6 Test: AngleTest
+Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test"
+Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"AngleTest" start time: Jun 13 14:12 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AngleTest" end time: Jun 13 14:12 CEST
+"AngleTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 13 14:12 CEST

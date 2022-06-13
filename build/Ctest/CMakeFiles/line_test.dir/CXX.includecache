@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../geometry2d/include/geo_compare.h
+compare.h
+../geometry2d/include/compare.h
+
+../geometry2d/include/line.h
+angle.h
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../geometry2d/include/point.h
+angle.h
+../geometry2d/include/angle.h
+
+../geometry2d/include/pose.h
+angle.h
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../util/include/compare.h
+
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/line_test.cpp
+../../geometry2d/include/line.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/geometry2d/include/line.h
+../../geometry2d/include/point.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/geometry2d/include/point.h
+../../geometry2d/include/geo_compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/geometry2d/include/geo_compare.h
+../../geometry2d/include/angle.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/geometry2d/include/angle.h
+../../geometry2d/include/pose.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/geometry2d/include/pose.h
+cassert
+-
+cstdlib
+-
+cmath
+-
+
