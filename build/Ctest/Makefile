@@ -68,6 +68,17 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -80,27 +91,16 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
+.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -113,27 +113,27 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
 
-.PHONY : edit_cache/fast
+.PHONY : list_install_components/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
 
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,64 +168,64 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Ctest/CMakeFiles/line_test.dir/rule:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/line_test.dir/rule
-.PHONY : Ctest/CMakeFiles/line_test.dir/rule
+Ctest/CMakeFiles/compare_test.dir/rule:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/compare_test.dir/rule
+.PHONY : Ctest/CMakeFiles/compare_test.dir/rule
 
 # Convenience name for target.
-line_test: Ctest/CMakeFiles/line_test.dir/rule
+compare_test: Ctest/CMakeFiles/compare_test.dir/rule
 
-.PHONY : line_test
+.PHONY : compare_test
 
 # fast build rule for target.
-line_test/fast:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/line_test.dir/build.make Ctest/CMakeFiles/line_test.dir/build
-.PHONY : line_test/fast
+compare_test/fast:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/compare_test.dir/build.make Ctest/CMakeFiles/compare_test.dir/build
+.PHONY : compare_test/fast
 
 # Convenience name for target.
-Ctest/CMakeFiles/point_google_test.dir/rule:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/point_google_test.dir/rule
-.PHONY : Ctest/CMakeFiles/point_google_test.dir/rule
+Ctest/CMakeFiles/pose_test.dir/rule:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/pose_test.dir/rule
+.PHONY : Ctest/CMakeFiles/pose_test.dir/rule
 
 # Convenience name for target.
-point_google_test: Ctest/CMakeFiles/point_google_test.dir/rule
+pose_test: Ctest/CMakeFiles/pose_test.dir/rule
 
-.PHONY : point_google_test
+.PHONY : pose_test
 
 # fast build rule for target.
-point_google_test/fast:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/point_google_test.dir/build.make Ctest/CMakeFiles/point_google_test.dir/build
-.PHONY : point_google_test/fast
+pose_test/fast:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/pose_test.dir/build.make Ctest/CMakeFiles/pose_test.dir/build
+.PHONY : pose_test/fast
 
 # Convenience name for target.
-Ctest/CMakeFiles/pose_google_test.dir/rule:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/pose_google_test.dir/rule
-.PHONY : Ctest/CMakeFiles/pose_google_test.dir/rule
+Ctest/CMakeFiles/point_test.dir/rule:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/point_test.dir/rule
+.PHONY : Ctest/CMakeFiles/point_test.dir/rule
 
 # Convenience name for target.
-pose_google_test: Ctest/CMakeFiles/pose_google_test.dir/rule
+point_test: Ctest/CMakeFiles/point_test.dir/rule
 
-.PHONY : pose_google_test
+.PHONY : point_test
 
 # fast build rule for target.
-pose_google_test/fast:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/pose_google_test.dir/build.make Ctest/CMakeFiles/pose_google_test.dir/build
-.PHONY : pose_google_test/fast
+point_test/fast:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/point_test.dir/build.make Ctest/CMakeFiles/point_test.dir/build
+.PHONY : point_test/fast
 
 # Convenience name for target.
-Ctest/CMakeFiles/angle_test.dir/rule:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/angle_test.dir/rule
-.PHONY : Ctest/CMakeFiles/angle_test.dir/rule
+Ctest/CMakeFiles/circle_test.dir/rule:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/circle_test.dir/rule
+.PHONY : Ctest/CMakeFiles/circle_test.dir/rule
 
 # Convenience name for target.
-angle_test: Ctest/CMakeFiles/angle_test.dir/rule
+circle_test: Ctest/CMakeFiles/circle_test.dir/rule
 
-.PHONY : angle_test
+.PHONY : circle_test
 
 # fast build rule for target.
-angle_test/fast:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/angle_test.dir/build.make Ctest/CMakeFiles/angle_test.dir/build
-.PHONY : angle_test/fast
+circle_test/fast:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/circle_test.dir/build.make Ctest/CMakeFiles/circle_test.dir/build
+.PHONY : circle_test/fast
 
 # Convenience name for target.
 Ctest/CMakeFiles/geo_compare_test.dir/rule:
@@ -243,19 +243,34 @@ geo_compare_test/fast:
 .PHONY : geo_compare_test/fast
 
 # Convenience name for target.
-Ctest/CMakeFiles/compare_google_test.dir/rule:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/compare_google_test.dir/rule
-.PHONY : Ctest/CMakeFiles/compare_google_test.dir/rule
+Ctest/CMakeFiles/angle_test.dir/rule:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/angle_test.dir/rule
+.PHONY : Ctest/CMakeFiles/angle_test.dir/rule
 
 # Convenience name for target.
-compare_google_test: Ctest/CMakeFiles/compare_google_test.dir/rule
+angle_test: Ctest/CMakeFiles/angle_test.dir/rule
 
-.PHONY : compare_google_test
+.PHONY : angle_test
 
 # fast build rule for target.
-compare_google_test/fast:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/compare_google_test.dir/build.make Ctest/CMakeFiles/compare_google_test.dir/build
-.PHONY : compare_google_test/fast
+angle_test/fast:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/angle_test.dir/build.make Ctest/CMakeFiles/angle_test.dir/build
+.PHONY : angle_test/fast
+
+# Convenience name for target.
+Ctest/CMakeFiles/line_test.dir/rule:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 Ctest/CMakeFiles/line_test.dir/rule
+.PHONY : Ctest/CMakeFiles/line_test.dir/rule
+
+# Convenience name for target.
+line_test: Ctest/CMakeFiles/line_test.dir/rule
+
+.PHONY : line_test
+
+# fast build rule for target.
+line_test/fast:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/line_test.dir/build.make Ctest/CMakeFiles/line_test.dir/build
+.PHONY : line_test/fast
 
 angle_test.o: angle_test.cpp.o
 
@@ -284,13 +299,40 @@ angle_test.cpp.s:
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/angle_test.dir/build.make Ctest/CMakeFiles/angle_test.dir/angle_test.cpp.s
 .PHONY : angle_test.cpp.s
 
+circle_test.o: circle_test.cpp.o
+
+.PHONY : circle_test.o
+
+# target to build an object file
+circle_test.cpp.o:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/circle_test.dir/build.make Ctest/CMakeFiles/circle_test.dir/circle_test.cpp.o
+.PHONY : circle_test.cpp.o
+
+circle_test.i: circle_test.cpp.i
+
+.PHONY : circle_test.i
+
+# target to preprocess a source file
+circle_test.cpp.i:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/circle_test.dir/build.make Ctest/CMakeFiles/circle_test.dir/circle_test.cpp.i
+.PHONY : circle_test.cpp.i
+
+circle_test.s: circle_test.cpp.s
+
+.PHONY : circle_test.s
+
+# target to generate assembly for a file
+circle_test.cpp.s:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/circle_test.dir/build.make Ctest/CMakeFiles/circle_test.dir/circle_test.cpp.s
+.PHONY : circle_test.cpp.s
+
 compare_test.o: compare_test.cpp.o
 
 .PHONY : compare_test.o
 
 # target to build an object file
 compare_test.cpp.o:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/compare_google_test.dir/build.make Ctest/CMakeFiles/compare_google_test.dir/compare_test.cpp.o
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/compare_test.dir/build.make Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o
 .PHONY : compare_test.cpp.o
 
 compare_test.i: compare_test.cpp.i
@@ -299,7 +341,7 @@ compare_test.i: compare_test.cpp.i
 
 # target to preprocess a source file
 compare_test.cpp.i:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/compare_google_test.dir/build.make Ctest/CMakeFiles/compare_google_test.dir/compare_test.cpp.i
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/compare_test.dir/build.make Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.i
 .PHONY : compare_test.cpp.i
 
 compare_test.s: compare_test.cpp.s
@@ -308,7 +350,7 @@ compare_test.s: compare_test.cpp.s
 
 # target to generate assembly for a file
 compare_test.cpp.s:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/compare_google_test.dir/build.make Ctest/CMakeFiles/compare_google_test.dir/compare_test.cpp.s
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/compare_test.dir/build.make Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.s
 .PHONY : compare_test.cpp.s
 
 geo_compare_test.o: geo_compare_test.cpp.o
@@ -371,7 +413,7 @@ point_test.o: point_test.cpp.o
 
 # target to build an object file
 point_test.cpp.o:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/point_google_test.dir/build.make Ctest/CMakeFiles/point_google_test.dir/point_test.cpp.o
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/point_test.dir/build.make Ctest/CMakeFiles/point_test.dir/point_test.cpp.o
 .PHONY : point_test.cpp.o
 
 point_test.i: point_test.cpp.i
@@ -380,7 +422,7 @@ point_test.i: point_test.cpp.i
 
 # target to preprocess a source file
 point_test.cpp.i:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/point_google_test.dir/build.make Ctest/CMakeFiles/point_google_test.dir/point_test.cpp.i
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/point_test.dir/build.make Ctest/CMakeFiles/point_test.dir/point_test.cpp.i
 .PHONY : point_test.cpp.i
 
 point_test.s: point_test.cpp.s
@@ -389,7 +431,7 @@ point_test.s: point_test.cpp.s
 
 # target to generate assembly for a file
 point_test.cpp.s:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/point_google_test.dir/build.make Ctest/CMakeFiles/point_google_test.dir/point_test.cpp.s
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/point_test.dir/build.make Ctest/CMakeFiles/point_test.dir/point_test.cpp.s
 .PHONY : point_test.cpp.s
 
 pose_test.o: pose_test.cpp.o
@@ -398,7 +440,7 @@ pose_test.o: pose_test.cpp.o
 
 # target to build an object file
 pose_test.cpp.o:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/pose_google_test.dir/build.make Ctest/CMakeFiles/pose_google_test.dir/pose_test.cpp.o
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/pose_test.dir/build.make Ctest/CMakeFiles/pose_test.dir/pose_test.cpp.o
 .PHONY : pose_test.cpp.o
 
 pose_test.i: pose_test.cpp.i
@@ -407,7 +449,7 @@ pose_test.i: pose_test.cpp.i
 
 # target to preprocess a source file
 pose_test.cpp.i:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/pose_google_test.dir/build.make Ctest/CMakeFiles/pose_google_test.dir/pose_test.cpp.i
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/pose_test.dir/build.make Ctest/CMakeFiles/pose_test.dir/pose_test.cpp.i
 .PHONY : pose_test.cpp.i
 
 pose_test.s: pose_test.cpp.s
@@ -416,7 +458,7 @@ pose_test.s: pose_test.cpp.s
 
 # target to generate assembly for a file
 pose_test.cpp.s:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/pose_google_test.dir/build.make Ctest/CMakeFiles/pose_google_test.dir/pose_test.cpp.s
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f Ctest/CMakeFiles/pose_test.dir/build.make Ctest/CMakeFiles/pose_test.dir/pose_test.cpp.s
 .PHONY : pose_test.cpp.s
 
 # Help Target
@@ -426,21 +468,25 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... line_test"
-	@echo "... point_google_test"
-	@echo "... pose_google_test"
-	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... angle_test"
+	@echo "... compare_test"
+	@echo "... pose_test"
+	@echo "... point_test"
+	@echo "... circle_test"
 	@echo "... geo_compare_test"
-	@echo "... compare_google_test"
+	@echo "... angle_test"
+	@echo "... test"
+	@echo "... install/local"
+	@echo "... line_test"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... install"
 	@echo "... angle_test.o"
 	@echo "... angle_test.i"
 	@echo "... angle_test.s"
+	@echo "... circle_test.o"
+	@echo "... circle_test.i"
+	@echo "... circle_test.s"
 	@echo "... compare_test.o"
 	@echo "... compare_test.i"
 	@echo "... compare_test.s"

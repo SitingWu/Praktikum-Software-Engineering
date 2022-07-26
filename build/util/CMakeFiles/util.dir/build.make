@@ -60,7 +60,7 @@ include util/CMakeFiles/util.dir/flags.make
 util/CMakeFiles/util.dir/src/compare.cpp.o: util/CMakeFiles/util.dir/flags.make
 util/CMakeFiles/util.dir/src/compare.cpp.o: ../util/src/compare.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object util/CMakeFiles/util.dir/src/compare.cpp.o"
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/util.dir/src/compare.cpp.o -c "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && $(CMAKE_COMMAND) -E __run_co_compile --tidy=/usr/bin/clang-tidy --source="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp" -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/util.dir/src/compare.cpp.o -c "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp"
 
 util/CMakeFiles/util.dir/src/compare.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/util.dir/src/compare.cpp.i"

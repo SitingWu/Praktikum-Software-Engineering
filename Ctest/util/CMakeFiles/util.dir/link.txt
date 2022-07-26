@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutil.a  CMakeFiles/util.dir/src/compare.cpp.o
+/usr/bin/ranlib libutil.a

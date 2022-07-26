@@ -117,6 +117,10 @@ gmock/internal/custom/gmock-generated-actions.h
 _deps/googletest-src/googlemock/include/gmock/gmock/internal/custom/gmock-generated-actions.h
 
 _deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h
+ostream
+-
+string
+-
 gmock/gmock-matchers.h
 _deps/googletest-src/googlemock/include/gmock/gmock/gmock-matchers.h
 
@@ -506,6 +510,8 @@ float.h
 string.h
 -
 cstdint
+-
+functional
 -
 iomanip
 -

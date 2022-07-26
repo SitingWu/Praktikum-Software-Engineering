@@ -623,56 +623,56 @@ util/fast:
 .PHONY : util/fast
 
 #=============================================================================
-# Target rules for targets named line_test
+# Target rules for targets named compare_test
 
 # Build rule for target.
-line_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 line_test
-.PHONY : line_test
+compare_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 compare_test
+.PHONY : compare_test
 
 # fast build rule for target.
-line_test/fast:
-	$(MAKE) -f Ctest/CMakeFiles/line_test.dir/build.make Ctest/CMakeFiles/line_test.dir/build
-.PHONY : line_test/fast
+compare_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/compare_test.dir/build.make Ctest/CMakeFiles/compare_test.dir/build
+.PHONY : compare_test/fast
 
 #=============================================================================
-# Target rules for targets named point_google_test
+# Target rules for targets named pose_test
 
 # Build rule for target.
-point_google_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 point_google_test
-.PHONY : point_google_test
+pose_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pose_test
+.PHONY : pose_test
 
 # fast build rule for target.
-point_google_test/fast:
-	$(MAKE) -f Ctest/CMakeFiles/point_google_test.dir/build.make Ctest/CMakeFiles/point_google_test.dir/build
-.PHONY : point_google_test/fast
+pose_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/pose_test.dir/build.make Ctest/CMakeFiles/pose_test.dir/build
+.PHONY : pose_test/fast
 
 #=============================================================================
-# Target rules for targets named pose_google_test
+# Target rules for targets named point_test
 
 # Build rule for target.
-pose_google_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pose_google_test
-.PHONY : pose_google_test
+point_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 point_test
+.PHONY : point_test
 
 # fast build rule for target.
-pose_google_test/fast:
-	$(MAKE) -f Ctest/CMakeFiles/pose_google_test.dir/build.make Ctest/CMakeFiles/pose_google_test.dir/build
-.PHONY : pose_google_test/fast
+point_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/point_test.dir/build.make Ctest/CMakeFiles/point_test.dir/build
+.PHONY : point_test/fast
 
 #=============================================================================
-# Target rules for targets named angle_test
+# Target rules for targets named circle_test
 
 # Build rule for target.
-angle_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 angle_test
-.PHONY : angle_test
+circle_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 circle_test
+.PHONY : circle_test
 
 # fast build rule for target.
-angle_test/fast:
-	$(MAKE) -f Ctest/CMakeFiles/angle_test.dir/build.make Ctest/CMakeFiles/angle_test.dir/build
-.PHONY : angle_test/fast
+circle_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/circle_test.dir/build.make Ctest/CMakeFiles/circle_test.dir/build
+.PHONY : circle_test/fast
 
 #=============================================================================
 # Target rules for targets named geo_compare_test
@@ -688,17 +688,30 @@ geo_compare_test/fast:
 .PHONY : geo_compare_test/fast
 
 #=============================================================================
-# Target rules for targets named compare_google_test
+# Target rules for targets named angle_test
 
 # Build rule for target.
-compare_google_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compare_google_test
-.PHONY : compare_google_test
+angle_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 angle_test
+.PHONY : angle_test
 
 # fast build rule for target.
-compare_google_test/fast:
-	$(MAKE) -f Ctest/CMakeFiles/compare_google_test.dir/build.make Ctest/CMakeFiles/compare_google_test.dir/build
-.PHONY : compare_google_test/fast
+angle_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/angle_test.dir/build.make Ctest/CMakeFiles/angle_test.dir/build
+.PHONY : angle_test/fast
+
+#=============================================================================
+# Target rules for targets named line_test
+
+# Build rule for target.
+line_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 line_test
+.PHONY : line_test
+
+# fast build rule for target.
+line_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/line_test.dir/build.make Ctest/CMakeFiles/line_test.dir/build
+.PHONY : line_test/fast
 
 main.o: main.cpp.o
 
@@ -775,12 +788,13 @@ help:
 	@echo "... gtest"
 	@echo "... geometry2d"
 	@echo "... util"
-	@echo "... line_test"
-	@echo "... point_google_test"
-	@echo "... pose_google_test"
-	@echo "... angle_test"
+	@echo "... compare_test"
+	@echo "... pose_test"
+	@echo "... point_test"
+	@echo "... circle_test"
 	@echo "... geo_compare_test"
-	@echo "... compare_google_test"
+	@echo "... angle_test"
+	@echo "... line_test"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

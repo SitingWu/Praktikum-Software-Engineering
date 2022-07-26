@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/compare_test.dir/compare_test.cpp.o  -o compare_test  ../util/libutil.a 
+/usr/bin/c++     CMakeFiles/compare_test.dir/compare_test.cpp.o  -o compare_test  ../lib/libgtest_main.a ../util/libutil.a ../lib/libgtest.a -lpthread 

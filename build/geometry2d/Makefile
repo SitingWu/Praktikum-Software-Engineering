@@ -209,6 +209,33 @@ src/angle.cpp.s:
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.s
 .PHONY : src/angle.cpp.s
 
+src/circle.o: src/circle.cpp.o
+
+.PHONY : src/circle.o
+
+# target to build an object file
+src/circle.cpp.o:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o
+.PHONY : src/circle.cpp.o
+
+src/circle.i: src/circle.cpp.i
+
+.PHONY : src/circle.i
+
+# target to preprocess a source file
+src/circle.cpp.i:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.i
+.PHONY : src/circle.cpp.i
+
+src/circle.s: src/circle.cpp.s
+
+.PHONY : src/circle.s
+
+# target to generate assembly for a file
+src/circle.cpp.s:
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.s
+.PHONY : src/circle.cpp.s
+
 src/geo_compare.o: src/geo_compare.cpp.o
 
 .PHONY : src/geo_compare.o
@@ -334,6 +361,9 @@ help:
 	@echo "... src/angle.o"
 	@echo "... src/angle.i"
 	@echo "... src/angle.s"
+	@echo "... src/circle.o"
+	@echo "... src/circle.i"
+	@echo "... src/circle.s"
 	@echo "... src/geo_compare.o"
 	@echo "... src/geo_compare.i"
 	@echo "... src/geo_compare.s"

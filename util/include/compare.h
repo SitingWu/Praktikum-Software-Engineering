@@ -1,11 +1,19 @@
 #ifndef SEL_COMPARE_H
 #define SEL_COMPARE_H
 
+class Compare {
 
-bool isFuzzyEqual(double value1, double value2, double epsilon);
-bool isFuzzyGreater(double value1, double value2, double epsilon);
-bool isFuzzySmaller(double value1, double value2, double epsilon);
-bool isStrictFuzzyGreater(double value1, double value2, double epsilon);
-bool isStrictFuzzySmaller(double value1, double value2, double epsilon);
+public:
+  Compare(double value) : value_(value) {}
 
-#endif  // SEL_COMPARE_H
+  bool isFuzzyEqual(double value2, double epsilon) const;
+  bool isFuzzyGreater(double value2, double epsilon) const;
+  bool isFuzzySmaller(double value2, double epsilon) const;
+  bool isStrictFuzzyGreater(double value2, double epsilon) const;
+  bool isStrictFuzzySmaller(double value2, double epsilon) const;
+
+private:
+  double value_;
+};
+
+#endif // SEL_COMPARE_H

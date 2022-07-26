@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/angle_test.dir/angle_test.cpp.o  -o angle_test  ../geometry2d/libgeometry2d.a ../util/libutil.a 

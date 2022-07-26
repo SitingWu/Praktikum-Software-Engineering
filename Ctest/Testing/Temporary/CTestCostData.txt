@@ -1,0 +1,19 @@
+CompareFuzzyTest 0 0
+PoseTest 0 0
+PointTest 0 0
+Geo_compareTest 0 0
+LineTest 0 0
+AngleTest 0 0
+compare_google_test_NOT_BUILT 0 0
+pose_google_test_NOT_BUILT 0 0
+point_google_test_NOT_BUILT 0 0
+---
+CompareFuzzyTest
+PoseTest
+PointTest
+Geo_compareTest
+LineTest
+AngleTest
+compare_google_test_NOT_BUILT
+pose_google_test_NOT_BUILT
+point_google_test_NOT_BUILT

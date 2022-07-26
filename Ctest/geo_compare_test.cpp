@@ -1,99 +1,82 @@
+#include "../../geometry2d/include/angle.h"
+#include "../../geometry2d/include/geo_compare.h"
 #include "../../geometry2d/include/line.h"
 #include "../../geometry2d/include/point.h"
-#include "../../geometry2d/include/geo_compare.h"
-#include "../../geometry2d/include/angle.h"
 #include "../../geometry2d/include/pose.h"
-
+#include <gtest/gtest.h>
 
 #include <cassert>
-#include <cstdlib>
 #include <cmath>
+#include <cstdlib>
 #define e 0.0001
 
+// tests for isFuzzyEqual for Points
+TEST(isfuzzyEqualPoints, FuzzyEqualPointsExpectTrue) {
 
+  Point one = {1.0, 2.0};
+  Point two = {1.0, 2.0};
 
-//tests for isFuzzyEqual for Points
-void testIsFuzzyEqualPointsExpectTrue() {
-    Point one = {1.0, 2.0};
-    Point two = {1.0, 2.0};
+  Geo_compare geo(one);
 
-    const bool result = isFuzzyEqual(one,two,e);
+  const bool result = geo.isFuzzyEqual(two, e);
 
-    assert(result == true);
-
+  EXPECT_TRUE(result);
 }
 
-void testIsFuzzyEqualPointsExpectFalse() {
-    Point one = {1.0, 3.0};
-    Point two = {1.0, 2.0};
+TEST(isfuzzyEqualPoints, FuzzyEqualPointsExpectFalse) {
+  Point one = {1.0, 3.0};
+  Point two = {1.0, 2.0};
 
-    const bool result = isFuzzyEqual(one,two,e);
+  Geo_compare geo(one);
 
-    assert(result == false);
+  const bool result = geo.isFuzzyEqual(two, e);
 
+  EXPECT_FALSE(result);
 }
 
-//tests for isFuzzyEqual for Angles
+// tests for isFuzzyEqual for Angles
 
-void testIsFuzzyEqualAnglesExpectTrue() {
-    Angle one;
-    one.value = 45;
-    Angle two;
-    two.value = 45;
+TEST(isfuzzyEqualAngles, FuzzyEqualAnglesExpectTrue) {
 
-    const bool result = isFuzzyEqual(one,two,e);
+  Angle one = {45};
+  Angle two = {45};
 
-    assert(result == true);
+  Geo_compare geo(one);
 
+  const bool result = geo.isFuzzyEqual(two, e);
+
+  EXPECT_TRUE(result);
 }
 
-void testIsFuzzyEqualAnglesExpectFalse() {
-    Angle one;
-    one.value = 45;
-    Angle two;
-    two.value = 35;
+TEST(isfuzzyEqualAngles, FuzzyEqualAnglesExpectFalse) {
 
-    const bool result = isFuzzyEqual(one,two,e);
+  Angle one = {45};
+  Angle two = {35};
 
-    assert(result == false);
+  Geo_compare geo(one);
+
+  const bool result = geo.isFuzzyEqual(two, e);
+
+  EXPECT_FALSE(result);
 }
 
-//test for isFuzzyEqual for Poses
+// test for isFuzzyEqual for Poses
 
-void testIsFuzzyEqualPosesExpectTrue() {
-    Pose one;
-    one.position = {0.0,0.0};
-    Pose two;
-    two.position = {0.0,0.0};
+TEST(isfuzzyEqualPoses, FuzzyEqualPosesExpectTrue) {
 
-    const bool result = isFuzzyEqual(one, two,e);
-    assert(result == true);
+  Point position = {0.0, 0.0};
+  Angle angle = {0};
+  Pose one = {position, angle};
 
-    
-}
+  // one.position = {0.0};
+  // one.orientation = 0;
+  Point position1 = {0.0, 0.0};
+  Angle angle1 = {0};
+  Pose two = {position, angle};
 
-void testIsFuzzyEqualPosesExpectFalse() {
-    Pose one;
-    one.position = {12.7,23.8};
-    Pose two;
-    two.position = {4.6,54.3};
+  Geo_compare geo(one);
 
-    const bool result = isFuzzyEqual(one, two,e);
-    assert(result == false);
+  const bool result = geo.isFuzzyEqual(two, e);
 
-}
-
-int main(int /*argc*/, char ** /*argv*/)
-{
-    /*Run all test functions*/
-
-    // LMT_SEL_BEGIN
-    testIsFuzzyEqualPointsExpectTrue();
-    testIsFuzzyEqualPointsExpectFalse();
-    testIsFuzzyEqualAnglesExpectTrue();
-    testIsFuzzyEqualAnglesExpectFalse();
-    testIsFuzzyEqualPosesExpectTrue();
-    testIsFuzzyEqualPosesExpectFalse();
-    
-    return EXIT_SUCCESS;
+  EXPECT_TRUE(result);
 }

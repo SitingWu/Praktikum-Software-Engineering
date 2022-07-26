@@ -24,6 +24,9 @@ BUILD_TESTING:BOOL=ON
 BZRCOMMAND:FILEPATH=BZRCOMMAND-NOTFOUND
 
 //Path to a program.
+CLANG_TIDY:FILEPATH=/usr/bin/clang-tidy
+
+//Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
 //Path to a program.
@@ -205,16 +208,16 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=geom
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.11.0
+CMAKE_PROJECT_VERSION:STATIC=1.12.1
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=11
+CMAKE_PROJECT_VERSION_MINOR:STATIC=12
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+CMAKE_PROJECT_VERSION_PATCH:STATIC=1
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -302,6 +305,9 @@ CVS_UPDATE_OPTIONS:STRING=-d -A -P
 
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
+
+//Search for clang-tidy and enable if available
+ENABLE_CLANG_TIDY:BOOL=ON
 
 //Directory under which to collect all populated content
 FETCHCONTENT_BASE_DIR:PATH=/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps

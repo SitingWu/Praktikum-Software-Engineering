@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/include" -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/include" -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src" 
+CXX_INCLUDES = -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/include" -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/include" -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src" -isystem "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/include" -isystem "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest" 
 

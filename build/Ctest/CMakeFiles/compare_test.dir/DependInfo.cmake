@@ -13,11 +13,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../util/include"
   "../geometry2d/include"
   "../geometry2d/src"
+  "_deps/googletest-src/googletest/include"
+  "_deps/googletest-src/googletest"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/CMakeFiles/util.dir/DependInfo.cmake"
+  "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,108 +1,121 @@
 #include "angle.h"
-
-#include <cmath>
-
 #include "geo_compare.h"
 #include "point.h"
 
+#include <cmath>
 
-double fixAngleRange(double angleValue) //return A im Intervall [-Pi;Pi]
+double Angle::fixAngleRange() // return A im Intervall [-Pi;Pi]
 {
-    while (angleValue <= M_PI)
-    {
-        angleValue += 2 * M_PI;
-    }//A muss > Pi
+  while (this->value_ <= M_PI) {
+    this->value_ += 2 * M_PI;
+  } // A muss > Pi
 
-    angleValue -= 2 * M_PI * static_cast<unsigned int>(angleValue / (2 * M_PI));
-    //A = A-2Pi * uint(A/2Pi)
-    //uint(A/2Pi) : Periode
-    //return A im Intervall [0;2Pi]
-    return angleValue > M_PI ? angleValue - 2 * M_PI : angleValue;
-    //return (condition)?true : false
-    //if(A > Pi) return A-2Pi
-    //else       return A
-   
+  this->value_ -=
+      2 * M_PI * static_cast<unsigned int>(this->value_ / (2 * M_PI));
+  // A = A-2Pi * uint(A/2Pi)
+  // uint(A/2Pi) : Periode
+  // return A im Intervall [0;2Pi]
+  return this->value_ > M_PI ? this->value_ - 2 * M_PI : this->value_;
+  // return (condition)?true : false
+  // if(A > Pi) return A-2Pi
+  // else       return A
 }
 
-Angle convertFromDegreeToRadiant(double angle)
-{
-    return Angle{angle / 180 * M_PI};
+Angle Angle::convertFromDegreeToRadiant() const {
+  return Angle{value_ / 180 * M_PI};
 }
 
-Angle getHalfRotation()
-{
-    return Angle{M_PI};
+Angle Angle::getHalfRotation() {
+  value_ = M_PI;
+  Angle angle(value_);
+  return angle;
+}
+Angle Angle::getQuarterRotation() {
+  value_ = M_PI_2;
+  Angle angle(value_);
+  return angle;
+}
+Angle Angle::getFullRotation() {
+  value_ = value_;
+  Angle angle(value_);
+  return angle;
+}
+Angle Angle::getEighthRotation() {
+  value_ = M_PI_4;
+  Angle angle(value_);
+  return angle;
 }
 
-Angle getQuarterRotation()
-{
-    return Angle{M_PI_2};
+double Angle::getValueBetweenMinusPiAndPi() { return this->fixAngleRange(); }
+
+double Angle::getValueBetweenZeroAndTwoPi() {
+
+  this->value_ = fixAngleRange();
+
+  return this->value_ < 0 ? this->value_ + 2 * M_PI : this->value_;
 }
 
-Angle getFullRotation()
-{
-    return {};
+Angle Angle::operator+(Angle other) {
+  Angle sum;
+  sum.value_ =
+      this->getValueBetweenMinusPiAndPi() + other.getValueBetweenMinusPiAndPi();
+  sum.value_ = sum.fixAngleRange();
+  // return Angle{(one.getValueBetweenMinusPiAndPi() +
+  // other.getValueBetweenMinusPiAndPi()).fixAngleRange()}
+  return sum;
 }
 
-Angle getEighthRotation()
-{
-    return Angle{M_PI_4};
+Angle Angle::operator-(Angle other) {
+  Angle difference;
+  difference.value_ =
+      this->getValueBetweenMinusPiAndPi() - other.getValueBetweenMinusPiAndPi();
+  difference.value_ = difference.fixAngleRange();
+  // return Angle{(one.getValueBetweenMinusPiAndPi() +
+  // other.getValueBetweenMinusPiAndPi()).fixAngleRange()}
+  return difference;
 }
 
-double getValueBetweenMinusPiAndPi(Angle angle)
-{
-    return fixAngleRange(angle.value);
+bool Angle::operator==(Angle other) const {
+  Angle value(value_);
+  Geo_compare geo(value);
+  return geo.isFuzzyEqual(other.value_, 0.00001);
 }
 
-double getValueBetweenZeroAndTwoPi(Angle angle)
-{
-    angle.value = fixAngleRange(angle.value);
-    return angle.value < 0 ? angle.value + 2 * M_PI : angle.value;
+Angle Angle::operator*(double factor) {
+  Angle product;
+
+  product.value_ = this->getValueBetweenMinusPiAndPi() * factor;
+  product.value_ = product.fixAngleRange();
+
+  return product;
 }
 
-Angle multiplyAngle(Angle angle, double factor)
-{
-    return Angle{fixAngleRange(getValueBetweenMinusPiAndPi(angle) * factor)};
+Angle::Angle(Point start, Point end) {
+  Point positionDifference = end - start; // end.x-start.y
+  Angle angle(atan2(positionDifference.getY(), positionDifference.getX()));
+  double value1 = angle.fixAngleRange();
+  value_ = value1;
+
+  // atan2(y,x) : arctan(y/x)S
 }
 
-Angle addAngles(Angle one, Angle two)
-{
-    return Angle{fixAngleRange(getValueBetweenMinusPiAndPi(one) + getValueBetweenMinusPiAndPi(two))};
+bool Angle::isObtuse() {
+  return fabs(this->getValueBetweenMinusPiAndPi()) > M_PI_2;
 }
 
-Angle subtractAngles(Angle one, Angle two)
-{
-    return Angle{fixAngleRange(getValueBetweenMinusPiAndPi(one) - getValueBetweenMinusPiAndPi(two))};
+Angle Angle::abs() { return Angle{fabs(this->getValueBetweenMinusPiAndPi())}; }
+
+Angle::Angle(Point source, Point targetOne, Point targetTwo) {
+
+  Compare comp1(source.distanceTo(targetOne));
+  Compare comp2(source.distanceTo(targetTwo));
+
+  if (!comp1.isFuzzyEqual(0, 0.001) && !comp2.isFuzzyEqual(0, 0.001)) {
+    value_ = (Angle(source, targetOne) - Angle(source, targetTwo)).abs().value_;
+  }
+  value_ = 0.0;
 }
 
-Angle createAngle(Point start, Point end)
-{
-    Point positionDifference = subtractPoints(end, start);//end.x-start.y
-    return Angle{fixAngleRange(atan2(positionDifference.y, positionDifference.x))};
-                              //atan2(y,x) : arctan(y/x)
-}
+double Angle::getValue() const { return this->value_; }
 
-bool isEqual(Angle one, Angle two)
-{
-    return isFuzzyEqual(one, two, 0.00001);
-}
-
-bool isObtuse(Angle angle)
-{
-    return fabs(getValueBetweenMinusPiAndPi(angle)) > M_PI_2;
-}
-
-Angle abs(Angle angle)
-{
-    return Angle{fabs(getValueBetweenMinusPiAndPi(angle))};
-}
-
-Angle createAngle(Point source, Point targetOne, Point targetTwo)
-{
-    if (!isFuzzyEqual(distanceTo(source, targetOne), 0, 0.001) &&
-        !isFuzzyEqual(distanceTo(source, targetTwo), 0, 0.001))
-    {
-        return abs(subtractAngles(createAngle(source, targetOne), createAngle(source, targetTwo)));
-    }
-    return Angle{0};
-}
+void Angle::setValue(double value) { this->value_ = value; }
