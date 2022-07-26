@@ -48,23 +48,14 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14"
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build"
-=======
 CMAKE_SOURCE_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build"
->>>>>>> google_test
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-<<<<<<< HEAD
-=======
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -111,7 +102,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
->>>>>>> google_test
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -147,24 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/src/CMakeFiles/progress.marks"
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" 0
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/src/CMakeFiles/progress.marks"
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" 0
->>>>>>> google_test
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/src/clean
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/src/clean
->>>>>>> google_test
 .PHONY : clean
 
 # The main clean target
@@ -174,29 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/src/preinstall
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/src/preinstall
->>>>>>> google_test
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/src/preinstall
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/src/preinstall
->>>>>>> google_test
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> google_test
 .PHONY : depend
 
 # Help Target
@@ -205,13 +173,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-<<<<<<< HEAD
-=======
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
->>>>>>> google_test
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
@@ -226,10 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> google_test
 .PHONY : cmake_check_build_system
 

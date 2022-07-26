@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14"
+CMAKE_SOURCE_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build"
+CMAKE_BINARY_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build"
 
 # Include any dependencies generated for this target.
 include util/CMakeFiles/util.dir/depend.make
@@ -59,21 +59,16 @@ include util/CMakeFiles/util.dir/flags.make
 
 util/CMakeFiles/util.dir/src/compare.cpp.o: util/CMakeFiles/util.dir/flags.make
 util/CMakeFiles/util.dir/src/compare.cpp.o: ../util/src/compare.cpp
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object util/CMakeFiles/util.dir/src/compare.cpp.o"
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/util.dir/src/compare.cpp.o -c "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp"
-=======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object util/CMakeFiles/util.dir/src/compare.cpp.o"
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && $(CMAKE_COMMAND) -E __run_co_compile --tidy=/usr/bin/clang-tidy --source="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp" -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/util.dir/src/compare.cpp.o -c "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp"
->>>>>>> google_test
 
 util/CMakeFiles/util.dir/src/compare.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/util.dir/src/compare.cpp.i"
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp" > CMakeFiles/util.dir/src/compare.cpp.i
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp" > CMakeFiles/util.dir/src/compare.cpp.i
 
 util/CMakeFiles/util.dir/src/compare.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/util.dir/src/compare.cpp.s"
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp" -o CMakeFiles/util.dir/src/compare.cpp.s
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/src/compare.cpp" -o CMakeFiles/util.dir/src/compare.cpp.s
 
 # Object files for target util
 util_OBJECTS = \
@@ -85,9 +80,9 @@ util_EXTERNAL_OBJECTS =
 util/libutil.a: util/CMakeFiles/util.dir/src/compare.cpp.o
 util/libutil.a: util/CMakeFiles/util.dir/build.make
 util/libutil.a: util/CMakeFiles/util.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libutil.a"
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && $(CMAKE_COMMAND) -P CMakeFiles/util.dir/cmake_clean_target.cmake
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/util.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libutil.a"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && $(CMAKE_COMMAND) -P CMakeFiles/util.dir/cmake_clean_target.cmake
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/util.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 util/CMakeFiles/util.dir/build: util/libutil.a
@@ -95,10 +90,10 @@ util/CMakeFiles/util.dir/build: util/libutil.a
 .PHONY : util/CMakeFiles/util.dir/build
 
 util/CMakeFiles/util.dir/clean:
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && $(CMAKE_COMMAND) -P CMakeFiles/util.dir/cmake_clean.cmake
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" && $(CMAKE_COMMAND) -P CMakeFiles/util.dir/cmake_clean.cmake
 .PHONY : util/CMakeFiles/util.dir/clean
 
 util/CMakeFiles/util.dir/depend:
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/util" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/CMakeFiles/util.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/CMakeFiles/util.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : util/CMakeFiles/util.dir/depend
 

@@ -7,19 +7,12 @@
 #IncludeRegexTransform: 
 
 ../geometry2d/include/angle.h
-<<<<<<< HEAD
-=======
 geo_compare.h
 ../geometry2d/include/geo_compare.h
->>>>>>> google_test
 point.h
 ../geometry2d/include/point.h
 
 ../geometry2d/include/geo_compare.h
-<<<<<<< HEAD
-compare.h
-../geometry2d/include/compare.h
-=======
 angle.h
 ../geometry2d/include/angle.h
 compare.h
@@ -28,7 +21,6 @@ point.h
 ../geometry2d/include/point.h
 pose.h
 ../geometry2d/include/pose.h
->>>>>>> google_test
 
 ../geometry2d/include/line.h
 angle.h
@@ -43,29 +35,13 @@ angle.h
 ../geometry2d/include/pose.h
 angle.h
 ../geometry2d/include/angle.h
-<<<<<<< HEAD
-=======
 geo_compare.h
 ../geometry2d/include/geo_compare.h
->>>>>>> google_test
 point.h
 ../geometry2d/include/point.h
 
 ../util/include/compare.h
 
-<<<<<<< HEAD
-/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/angle_test.cpp
-../../geometry2d/include/line.h
-/home/rose0901/Dokumente/Praktikum Software Engineering/geometry2d/include/line.h
-../../geometry2d/include/point.h
-/home/rose0901/Dokumente/Praktikum Software Engineering/geometry2d/include/point.h
-../../geometry2d/include/geo_compare.h
-/home/rose0901/Dokumente/Praktikum Software Engineering/geometry2d/include/geo_compare.h
-../../geometry2d/include/angle.h
-/home/rose0901/Dokumente/Praktikum Software Engineering/geometry2d/include/angle.h
-../../geometry2d/include/pose.h
-/home/rose0901/Dokumente/Praktikum Software Engineering/geometry2d/include/pose.h
-=======
 /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/angle_test.cpp
 ../../geometry2d/include/angle.h
 /home/benutzer/Dokumente/Praktikum Software Engineering/geometry2d/include/angle.h
@@ -79,7 +55,6 @@ point.h
 /home/benutzer/Dokumente/Praktikum Software Engineering/geometry2d/include/pose.h
 gtest/gtest.h
 -
->>>>>>> google_test
 cassert
 -
 cstdlib
@@ -87,8 +62,6 @@ cstdlib
 cmath
 -
 
-<<<<<<< HEAD
-=======
 _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h
 memory
 -
@@ -451,4 +424,3 @@ cxxabi.h
 acxx_demangle.h
 -
 
->>>>>>> google_test

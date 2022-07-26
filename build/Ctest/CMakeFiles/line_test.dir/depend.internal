@@ -8,9 +8,6 @@ Ctest/CMakeFiles/line_test.dir/line_test.cpp.o
  ../geometry2d/include/point.h
  ../geometry2d/include/pose.h
  ../util/include/compare.h
-<<<<<<< HEAD
- /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/line_test.cpp
-=======
  /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/line_test.cpp
  _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h
  _deps/googletest-src/googletest/include/gtest/gtest-death-test.h
@@ -33,4 +30,3 @@ Ctest/CMakeFiles/line_test.dir/line_test.cpp.o
  _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
  _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
  _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
->>>>>>> google_test

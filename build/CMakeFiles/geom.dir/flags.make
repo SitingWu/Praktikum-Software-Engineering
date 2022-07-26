@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/util/include" -I"/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/include" 
+CXX_INCLUDES = -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/include" -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/include" 
 

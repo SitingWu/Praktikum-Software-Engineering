@@ -8,8 +8,6 @@ Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: ../geometry2d/incl
 Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: ../geometry2d/include/pose.h
 Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: ../util/include/compare.h
 Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: ../Ctest/geo_compare_test.cpp
-<<<<<<< HEAD
-=======
 Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h
 Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/gtest-death-test.h
 Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/gtest-matchers.h
@@ -31,5 +29,4 @@ Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: _deps/googletest-s
 Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
 Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
 Ctest/CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
->>>>>>> google_test
 

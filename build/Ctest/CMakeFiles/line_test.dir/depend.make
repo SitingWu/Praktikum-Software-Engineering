@@ -8,8 +8,6 @@ Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: ../geometry2d/include/point.h
 Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: ../geometry2d/include/pose.h
 Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: ../util/include/compare.h
 Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: ../Ctest/line_test.cpp
-<<<<<<< HEAD
-=======
 Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h
 Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: _deps/googletest-src/googletest/include/gtest/gtest-death-test.h
 Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: _deps/googletest-src/googletest/include/gtest/gtest-matchers.h
@@ -31,5 +29,4 @@ Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: _deps/googletest-src/googletest/
 Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
 Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
 Ctest/CMakeFiles/line_test.dir/line_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
->>>>>>> google_test
 

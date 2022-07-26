@@ -3,8 +3,6 @@
 
 Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o: ../util/include/compare.h
 Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o: ../Ctest/compare_test.cpp
-<<<<<<< HEAD
-=======
 Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h
 Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/gtest-death-test.h
 Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/gtest-matchers.h
@@ -26,5 +24,4 @@ Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o: _deps/googletest-src/googl
 Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
 Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
 Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
->>>>>>> google_test
 

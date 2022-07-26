@@ -7,19 +7,12 @@
 #IncludeRegexTransform: 
 
 ../geometry2d/include/angle.h
-<<<<<<< HEAD
-=======
 geo_compare.h
 ../geometry2d/include/geo_compare.h
->>>>>>> google_test
 point.h
 ../geometry2d/include/point.h
 
 ../geometry2d/include/geo_compare.h
-<<<<<<< HEAD
-compare.h
-../geometry2d/include/compare.h
-=======
 angle.h
 ../geometry2d/include/angle.h
 compare.h
@@ -28,7 +21,6 @@ point.h
 ../geometry2d/include/point.h
 pose.h
 ../geometry2d/include/pose.h
->>>>>>> google_test
 
 ../geometry2d/include/point.h
 angle.h
@@ -37,29 +29,13 @@ angle.h
 ../geometry2d/include/pose.h
 angle.h
 ../geometry2d/include/angle.h
-<<<<<<< HEAD
-=======
 geo_compare.h
 ../geometry2d/include/geo_compare.h
->>>>>>> google_test
 point.h
 ../geometry2d/include/point.h
 
 ../util/include/compare.h
 
-<<<<<<< HEAD
-/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/pose_test.cpp
-pose.h
-/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/pose.h
-cassert
--
-cstdlib
--
-cmath
--
-geo_compare.h
-/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/geo_compare.h
-=======
 /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/pose_test.cpp
 compare.h
 /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/compare.h
@@ -437,5 +413,4 @@ cxxabi.h
 -
 acxx_demangle.h
 -
->>>>>>> google_test
 

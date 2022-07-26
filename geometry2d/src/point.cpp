@@ -2,31 +2,17 @@
 #include "angle.h"
 #include "geo_compare.h"
 #include <cmath>
-<<<<<<< HEAD
-#include <stdio.h>
-#include "geo_compare.h"
-=======
 #include <cstdio>
 
 Point::Point(double distance, Angle angle) {
   x_ = distance * cos(angle.getValueBetweenMinusPiAndPi());
   y_ = distance * sin(angle.getValueBetweenMinusPiAndPi());
 }
->>>>>>> google_test
 
 Point Point::multiplyPoint(double factor) const {
 
-<<<<<<< HEAD
-Point createPoint(double distance, Angle angle)
-{   //distance =Radios
-    //x=r*cos(a)
-    //y=r*sin(a)
-    return Point{distance * cos(getValueBetweenMinusPiAndPi(angle)),
-                 distance * sin(getValueBetweenMinusPiAndPi(angle))};
-=======
   Point p(x_ * factor, y_ * factor);
   return p;
->>>>>>> google_test
 }
 // getter Funciotn
 
@@ -61,17 +47,6 @@ Point Point::operator*(double factor) const {
   return Point{x_ * factor, y_ * factor};
 }
 
-<<<<<<< HEAD
-void rotate(Point& point, Angle angle)
-{
-    double angleValue = getValueBetweenMinusPiAndPi(angle);
-    double xVal = point.x * cos(angleValue) - point.y * sin(angleValue);
-    double yVal = point.x * sin(angleValue) + point.y * cos(angleValue);
-   
-   
-    point.x = xVal;
-    point.y = yVal;
-=======
 void Point::rotate(Angle angle) {
 
   double angleValue = angle.getValueBetweenMinusPiAndPi();
@@ -80,5 +55,4 @@ void Point::rotate(Angle angle) {
 
   x_ = xVal;
   y_ = yVal;
->>>>>>> google_test
 }

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-/usr/bin/c++     CMakeFiles/point_test.dir/point_test.cpp.o  -o point_test  ../geometry2d/libgeometry2d.a ../util/libutil.a 
-=======
 /usr/bin/c++     CMakeFiles/point_test.dir/point_test.cpp.o  -o point_test  ../lib/libgtest_main.a ../geometry2d/libgeometry2d.a ../util/libutil.a ../lib/libgtest.a -lpthread 
->>>>>>> google_test

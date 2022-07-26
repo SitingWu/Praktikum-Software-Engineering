@@ -4,10 +4,6 @@
 Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: ../geometry2d/include/angle.h
 Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: ../geometry2d/include/geo_compare.h
 Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: ../geometry2d/include/point.h
-<<<<<<< HEAD
-Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: ../util/include/compare.h
-Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: ../Ctest/point_test.cpp
-=======
 Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: ../geometry2d/include/pose.h
 Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: ../util/include/compare.h
 Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: ../Ctest/point_test.cpp
@@ -32,5 +28,4 @@ Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: _deps/googletest-src/googletes
 Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
 Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
 Ctest/CMakeFiles/point_test.dir/point_test.cpp.o: _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
->>>>>>> google_test
 

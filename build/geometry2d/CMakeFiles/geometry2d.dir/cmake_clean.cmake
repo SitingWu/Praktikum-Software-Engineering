@@ -1,9 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geometry2d.dir/src/angle.cpp.o"
-<<<<<<< HEAD
-=======
   "CMakeFiles/geometry2d.dir/src/circle.cpp.o"
->>>>>>> google_test
   "CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o"
   "CMakeFiles/geometry2d.dir/src/line.cpp.o"
   "CMakeFiles/geometry2d.dir/src/point.cpp.o"

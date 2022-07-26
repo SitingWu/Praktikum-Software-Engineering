@@ -1,36 +1,10 @@
-<<<<<<< HEAD
-Start testing: May 29 23:42 CEST
-----------------------------------------------------------
-1/6 Testing: CompareFuzzyTest
-1/6 Test: CompareFuzzyTest
-Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test"
-Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"CompareFuzzyTest" start time: May 29 23:42 CEST
-Output:
-----------------------------------------------------------
-<end of output>
-Test time =   0.00 sec
-----------------------------------------------------------
-Test Passed.
-"CompareFuzzyTest" end time: May 29 23:42 CEST
-"CompareFuzzyTest" time elapsed: 00:00:00
-----------------------------------------------------------
-
-2/6 Testing: PoseTest
-2/6 Test: PoseTest
-Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test"
-Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"PoseTest" start time: May 29 23:42 CEST
-Output:
-----------------------------------------------------------
-=======
-Start testing: Jul 26 19:31 CEST
+Start testing: Jul 26 19:34 CEST
 ----------------------------------------------------------
 1/111 Testing: CompareFuzzyTest
 1/111 Test: CompareFuzzyTest
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"CompareFuzzyTest" start time: Jul 26 19:31 CEST
+"CompareFuzzyTest" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -94,10 +68,10 @@ Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-
 [==========] 18 tests from 6 test suites ran. (0 ms total)
 [  PASSED  ] 18 tests.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CompareFuzzyTest" end time: Jul 26 19:31 CEST
+"CompareFuzzyTest" end time: Jul 26 19:34 CEST
 "CompareFuzzyTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -105,7 +79,7 @@ Test Passed.
 2/111 Test: PoseTest
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"PoseTest" start time: Jul 26 19:31 CEST
+"PoseTest" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -143,40 +117,11 @@ Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-
 [----------] Global test environment tear-down
 [==========] 10 tests from 3 test suites ran. (0 ms total)
 [  PASSED  ] 10 tests.
->>>>>>> google_test
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-<<<<<<< HEAD
-"PoseTest" end time: May 29 23:42 CEST
-"PoseTest" time elapsed: 00:00:00
-----------------------------------------------------------
-
-3/6 Testing: PointTest
-3/6 Test: PointTest
-Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test"
-Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"PointTest" start time: May 29 23:42 CEST
-Output:
-----------------------------------------------------------
-<end of output>
-Test time =   0.00 sec
-----------------------------------------------------------
-Test Passed.
-"PointTest" end time: May 29 23:42 CEST
-"PointTest" time elapsed: 00:00:00
-----------------------------------------------------------
-
-4/6 Testing: Geo_compareTest
-4/6 Test: Geo_compareTest
-Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/geo_compare_test"
-Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"Geo_compareTest" start time: May 29 23:42 CEST
-Output:
-----------------------------------------------------------
-=======
-"PoseTest" end time: Jul 26 19:31 CEST
+"PoseTest" end time: Jul 26 19:34 CEST
 "PoseTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -184,7 +129,7 @@ Output:
 3/111 Test: PointTest
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"PointTest" start time: Jul 26 19:31 CEST
+"PointTest" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -264,10 +209,10 @@ Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-
 [==========] 23 tests from 8 test suites ran. (0 ms total)
 [  PASSED  ] 23 tests.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"PointTest" end time: Jul 26 19:31 CEST
+"PointTest" end time: Jul 26 19:34 CEST
 "PointTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -275,7 +220,7 @@ Test Passed.
 4/111 Test: CirleTest
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"CirleTest" start time: Jul 26 19:31 CEST
+"CirleTest" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -332,25 +277,11 @@ Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-
 [----------] Global test environment tear-down
 [==========] 12 tests from 8 test suites ran. (0 ms total)
 [  PASSED  ] 12 tests.
->>>>>>> google_test
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-<<<<<<< HEAD
-"Geo_compareTest" end time: May 29 23:42 CEST
-"Geo_compareTest" time elapsed: 00:00:00
-----------------------------------------------------------
-
-5/6 Testing: LineTest
-5/6 Test: LineTest
-Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test"
-Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"LineTest" start time: May 29 23:42 CEST
-Output:
-----------------------------------------------------------
-=======
-"CirleTest" end time: Jul 26 19:31 CEST
+"CirleTest" end time: Jul 26 19:34 CEST
 "CirleTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -358,7 +289,7 @@ Output:
 5/111 Test: LineTest
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"LineTest" start time: Jul 26 19:31 CEST
+"LineTest" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -415,25 +346,11 @@ Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-
 [----------] Global test environment tear-down
 [==========] 15 tests from 6 test suites ran. (0 ms total)
 [  PASSED  ] 15 tests.
->>>>>>> google_test
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-<<<<<<< HEAD
-"LineTest" end time: May 29 23:42 CEST
-"LineTest" time elapsed: 00:00:00
-----------------------------------------------------------
-
-6/6 Testing: AngleTest
-6/6 Test: AngleTest
-Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test"
-Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"AngleTest" start time: May 29 23:42 CEST
-Output:
-----------------------------------------------------------
-=======
-"LineTest" end time: Jul 26 19:31 CEST
+"LineTest" end time: Jul 26 19:34 CEST
 "LineTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -441,7 +358,7 @@ Output:
 6/111 Test: AngleTest
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"AngleTest" start time: Jul 26 19:31 CEST
+"AngleTest" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -540,19 +457,11 @@ Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-
 [----------] Global test environment tear-down
 [==========] 21 tests from 16 test suites ran. (0 ms total)
 [  PASSED  ] 21 tests.
->>>>>>> google_test
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-<<<<<<< HEAD
-"AngleTest" end time: May 29 23:42 CEST
-"AngleTest" time elapsed: 00:00:00
-----------------------------------------------------------
-
-End testing: May 29 23:42 CEST
-=======
-"AngleTest" end time: Jul 26 19:31 CEST
+"AngleTest" end time: Jul 26 19:34 CEST
 "AngleTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -560,7 +469,7 @@ End testing: May 29 23:42 CEST
 7/111 Test: GeoCompareTest
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/geo_compare_test"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
-"GeoCompareTest" start time: Jul 26 19:31 CEST
+"GeoCompareTest" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -592,7 +501,7 @@ Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"GeoCompareTest" end time: Jul 26 19:31 CEST
+"GeoCompareTest" end time: Jul 26 19:34 CEST
 "GeoCompareTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -600,7 +509,7 @@ Test Passed.
 8/111 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue" start time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -619,7 +528,7 @@ Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue" end time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue" end time: Jul 26 19:34 CEST
 "isFuzzyEqualGoogleTest.testIsFuzzyEqualExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -627,7 +536,7 @@ Test Passed.
 9/111 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue" start time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -646,7 +555,7 @@ Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpe
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue" end time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue" end time: Jul 26 19:34 CEST
 "isFuzzyEqualGoogleTest.testIsFuzzyEqualForSmallerExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -654,7 +563,7 @@ Test Passed.
 10/111 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse" start time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -673,7 +582,7 @@ Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpec
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse" end time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse" end time: Jul 26 19:34 CEST
 "isFuzzyEqualGoogleTest.testIsFuzzyEqualToEpsilonExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -681,7 +590,7 @@ Test Passed.
 11/111 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse" start time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -700,7 +609,7 @@ Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectF
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse" end time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse" end time: Jul 26 19:34 CEST
 "isFuzzyEqualGoogleTest.testIsFuzzyEqualGreaterExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -708,7 +617,7 @@ Test Passed.
 12/111 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue" start time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -727,7 +636,7 @@ Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExp
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue" end time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue" end time: Jul 26 19:34 CEST
 "isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -735,7 +644,7 @@ Test Passed.
 13/111 Test: isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse" start time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -754,7 +663,7 @@ Note: Google Test filter = isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExp
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse" end time: Jul 26 19:31 CEST
+"isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse" end time: Jul 26 19:34 CEST
 "isFuzzyEqualGoogleTest.testIsFuzzyEqualForNegativeExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -762,7 +671,7 @@ Test Passed.
 14/111 Test: isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue" start time: Jul 26 19:31 CEST
+"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -781,7 +690,7 @@ Note: Google Test filter = isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue" end time: Jul 26 19:31 CEST
+"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue" end time: Jul 26 19:34 CEST
 "isFuzzyGreaterGoogleTest.testIsFuzzyGreaterExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -789,7 +698,7 @@ Test Passed.
 15/111 Test: isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse" start time: Jul 26 19:31 CEST
+"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -808,7 +717,7 @@ Note: Google Test filter = isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExp
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse" end time: Jul 26 19:31 CEST
+"isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse" end time: Jul 26 19:34 CEST
 "isFuzzyGreaterGoogleTest.testIsFuzzyGreaterKleinerExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -816,7 +725,7 @@ Test Passed.
 16/111 Test: isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse" start time: Jul 26 19:31 CEST
+"isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -835,7 +744,7 @@ Note: Google Test filter = isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpec
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse" end time: Jul 26 19:31 CEST
+"isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse" end time: Jul 26 19:34 CEST
 "isFuzzyGreaterGoolgeTest.testIsFuzzyGreaterEqualExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -843,7 +752,7 @@ Test Passed.
 17/111 Test: isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue" start time: Jul 26 19:31 CEST
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -862,7 +771,7 @@ Note: Google Test filter = isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue" end time: Jul 26 19:31 CEST
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue" end time: Jul 26 19:34 CEST
 "isFuzzySmallerGoogleTest.testIsFuzzySmallerExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -870,7 +779,7 @@ Test Passed.
 18/111 Test: isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse" start time: Jul 26 19:31 CEST
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -889,7 +798,7 @@ Note: Google Test filter = isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpec
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse" end time: Jul 26 19:31 CEST
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse" end time: Jul 26 19:34 CEST
 "isFuzzySmallerGoogleTest.testIsFuzzySmallerEqualExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -897,7 +806,7 @@ Test Passed.
 19/111 Test: isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse" start time: Jul 26 19:31 CEST
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -916,7 +825,7 @@ Note: Google Test filter = isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExp
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse" end time: Jul 26 19:31 CEST
+"isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse" end time: Jul 26 19:34 CEST
 "isFuzzySmallerGoogleTest.testIsFuzzySmallerGrosserExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -924,7 +833,7 @@ Test Passed.
 20/111 Test: isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue" start time: Jul 26 19:31 CEST
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -943,7 +852,7 @@ Note: Google Test filter = isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreat
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue" end time: Jul 26 19:31 CEST
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue" end time: Jul 26 19:34 CEST
 "isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -951,7 +860,7 @@ Test Passed.
 21/111 Test: isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse" start time: Jul 26 19:31 CEST
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -970,7 +879,7 @@ Note: Google Test filter = isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreat
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse" end time: Jul 26 19:31 CEST
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse" end time: Jul 26 19:34 CEST
 "isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterEqualExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -978,7 +887,7 @@ Test Passed.
 22/111 Test: isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse" start time: Jul 26 19:31 CEST
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -997,7 +906,7 @@ Note: Google Test filter = isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreat
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse" end time: Jul 26 19:31 CEST
+"isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse" end time: Jul 26 19:34 CEST
 "isStrictFuzzyGreaterGoogleTest.testStrictIsFuzzyGreaterKleinerExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1005,7 +914,7 @@ Test Passed.
 23/111 Test: isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue" start time: Jul 26 19:31 CEST
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1024,7 +933,7 @@ Note: Google Test filter = isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmall
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue" end time: Jul 26 19:31 CEST
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue" end time: Jul 26 19:34 CEST
 "isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1032,7 +941,7 @@ Test Passed.
 24/111 Test: isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse" start time: Jul 26 19:31 CEST
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1051,7 +960,7 @@ Note: Google Test filter = isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmall
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse" end time: Jul 26 19:31 CEST
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse" end time: Jul 26 19:34 CEST
 "isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerEqualExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1059,7 +968,7 @@ Test Passed.
 25/111 Test: isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test" "--gtest_filter=isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse" start time: Jul 26 19:31 CEST
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1078,7 +987,7 @@ Note: Google Test filter = isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmall
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse" end time: Jul 26 19:31 CEST
+"isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse" end time: Jul 26 19:34 CEST
 "isStrictFuzzySmallerGoogleTest.testIsStrictFuzzySmallerGrosserExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1086,7 +995,7 @@ Test Passed.
 26/111 Test: Posetest.distanceToTest_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test" "--gtest_filter=Posetest.distanceToTest_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"Posetest.distanceToTest_1" start time: Jul 26 19:31 CEST
+"Posetest.distanceToTest_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1105,7 +1014,7 @@ Note: Google Test filter = Posetest.distanceToTest_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Posetest.distanceToTest_1" end time: Jul 26 19:31 CEST
+"Posetest.distanceToTest_1" end time: Jul 26 19:34 CEST
 "Posetest.distanceToTest_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1113,7 +1022,7 @@ Test Passed.
 27/111 Test: Posetest.distanceToTest_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test" "--gtest_filter=Posetest.distanceToTest_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"Posetest.distanceToTest_2" start time: Jul 26 19:31 CEST
+"Posetest.distanceToTest_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1132,7 +1041,7 @@ Note: Google Test filter = Posetest.distanceToTest_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Posetest.distanceToTest_2" end time: Jul 26 19:31 CEST
+"Posetest.distanceToTest_2" end time: Jul 26 19:34 CEST
 "Posetest.distanceToTest_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1140,7 +1049,7 @@ Test Passed.
 28/111 Test: Posetest.distanceToTest_3
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test" "--gtest_filter=Posetest.distanceToTest_3" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"Posetest.distanceToTest_3" start time: Jul 26 19:31 CEST
+"Posetest.distanceToTest_3" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1159,7 +1068,7 @@ Note: Google Test filter = Posetest.distanceToTest_3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Posetest.distanceToTest_3" end time: Jul 26 19:31 CEST
+"Posetest.distanceToTest_3" end time: Jul 26 19:34 CEST
 "Posetest.distanceToTest_3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1167,7 +1076,7 @@ Test Passed.
 29/111 Test: Posetest.getRelativeOrientationToTest_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test" "--gtest_filter=Posetest.getRelativeOrientationToTest_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"Posetest.getRelativeOrientationToTest_1" start time: Jul 26 19:31 CEST
+"Posetest.getRelativeOrientationToTest_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1186,7 +1095,7 @@ Note: Google Test filter = Posetest.getRelativeOrientationToTest_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Posetest.getRelativeOrientationToTest_1" end time: Jul 26 19:31 CEST
+"Posetest.getRelativeOrientationToTest_1" end time: Jul 26 19:34 CEST
 "Posetest.getRelativeOrientationToTest_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1194,7 +1103,7 @@ Test Passed.
 30/111 Test: Posetest.isEqualTest_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test" "--gtest_filter=Posetest.isEqualTest_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"Posetest.isEqualTest_1" start time: Jul 26 19:31 CEST
+"Posetest.isEqualTest_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1213,7 +1122,7 @@ Note: Google Test filter = Posetest.isEqualTest_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Posetest.isEqualTest_1" end time: Jul 26 19:31 CEST
+"Posetest.isEqualTest_1" end time: Jul 26 19:34 CEST
 "Posetest.isEqualTest_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1221,7 +1130,7 @@ Test Passed.
 31/111 Test: Posetest.isEqualTest_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test" "--gtest_filter=Posetest.isEqualTest_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"Posetest.isEqualTest_2" start time: Jul 26 19:31 CEST
+"Posetest.isEqualTest_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1240,7 +1149,7 @@ Note: Google Test filter = Posetest.isEqualTest_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Posetest.isEqualTest_2" end time: Jul 26 19:31 CEST
+"Posetest.isEqualTest_2" end time: Jul 26 19:34 CEST
 "Posetest.isEqualTest_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1248,7 +1157,7 @@ Test Passed.
 32/111 Test: Posetest.isEqualTest_3
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test" "--gtest_filter=Posetest.isEqualTest_3" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"Posetest.isEqualTest_3" start time: Jul 26 19:31 CEST
+"Posetest.isEqualTest_3" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1267,7 +1176,7 @@ Note: Google Test filter = Posetest.isEqualTest_3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Posetest.isEqualTest_3" end time: Jul 26 19:31 CEST
+"Posetest.isEqualTest_3" end time: Jul 26 19:34 CEST
 "Posetest.isEqualTest_3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1275,7 +1184,7 @@ Test Passed.
 33/111 Test: addPosesGoogleTest.addPosesTest_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test" "--gtest_filter=addPosesGoogleTest.addPosesTest_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"addPosesGoogleTest.addPosesTest_1" start time: Jul 26 19:31 CEST
+"addPosesGoogleTest.addPosesTest_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1294,7 +1203,7 @@ Note: Google Test filter = addPosesGoogleTest.addPosesTest_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"addPosesGoogleTest.addPosesTest_1" end time: Jul 26 19:31 CEST
+"addPosesGoogleTest.addPosesTest_1" end time: Jul 26 19:34 CEST
 "addPosesGoogleTest.addPosesTest_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1302,7 +1211,7 @@ Test Passed.
 34/111 Test: addPosesGoogleTest.addPosesTest_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test" "--gtest_filter=addPosesGoogleTest.addPosesTest_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"addPosesGoogleTest.addPosesTest_2" start time: Jul 26 19:31 CEST
+"addPosesGoogleTest.addPosesTest_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1321,7 +1230,7 @@ Note: Google Test filter = addPosesGoogleTest.addPosesTest_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"addPosesGoogleTest.addPosesTest_2" end time: Jul 26 19:31 CEST
+"addPosesGoogleTest.addPosesTest_2" end time: Jul 26 19:34 CEST
 "addPosesGoogleTest.addPosesTest_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1329,7 +1238,7 @@ Test Passed.
 35/111 Test: subtractPosesGoogleTest.subtractPosesTest_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test" "--gtest_filter=subtractPosesGoogleTest.subtractPosesTest_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"subtractPosesGoogleTest.subtractPosesTest_1" start time: Jul 26 19:31 CEST
+"subtractPosesGoogleTest.subtractPosesTest_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1348,7 +1257,7 @@ Note: Google Test filter = subtractPosesGoogleTest.subtractPosesTest_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"subtractPosesGoogleTest.subtractPosesTest_1" end time: Jul 26 19:31 CEST
+"subtractPosesGoogleTest.subtractPosesTest_1" end time: Jul 26 19:34 CEST
 "subtractPosesGoogleTest.subtractPosesTest_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1356,7 +1265,7 @@ Test Passed.
 36/111 Test: creatPointGoogleTest.CreatPointTest_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=creatPointGoogleTest.CreatPointTest_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"creatPointGoogleTest.CreatPointTest_1" start time: Jul 26 19:31 CEST
+"creatPointGoogleTest.CreatPointTest_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1375,7 +1284,7 @@ Note: Google Test filter = creatPointGoogleTest.CreatPointTest_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"creatPointGoogleTest.CreatPointTest_1" end time: Jul 26 19:31 CEST
+"creatPointGoogleTest.CreatPointTest_1" end time: Jul 26 19:34 CEST
 "creatPointGoogleTest.CreatPointTest_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1383,7 +1292,7 @@ Test Passed.
 37/111 Test: creatPointGoogleTest.CreatPointTest_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=creatPointGoogleTest.CreatPointTest_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"creatPointGoogleTest.CreatPointTest_2" start time: Jul 26 19:31 CEST
+"creatPointGoogleTest.CreatPointTest_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1402,7 +1311,7 @@ Note: Google Test filter = creatPointGoogleTest.CreatPointTest_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"creatPointGoogleTest.CreatPointTest_2" end time: Jul 26 19:31 CEST
+"creatPointGoogleTest.CreatPointTest_2" end time: Jul 26 19:34 CEST
 "creatPointGoogleTest.CreatPointTest_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1410,7 +1319,7 @@ Test Passed.
 38/111 Test: creatPointGoogleTest.CreatPointTest_3
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=creatPointGoogleTest.CreatPointTest_3" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"creatPointGoogleTest.CreatPointTest_3" start time: Jul 26 19:31 CEST
+"creatPointGoogleTest.CreatPointTest_3" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1429,7 +1338,7 @@ Note: Google Test filter = creatPointGoogleTest.CreatPointTest_3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"creatPointGoogleTest.CreatPointTest_3" end time: Jul 26 19:31 CEST
+"creatPointGoogleTest.CreatPointTest_3" end time: Jul 26 19:34 CEST
 "creatPointGoogleTest.CreatPointTest_3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1437,7 +1346,7 @@ Test Passed.
 39/111 Test: creatPointGoogleTest.CreatPointTest_4
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=creatPointGoogleTest.CreatPointTest_4" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"creatPointGoogleTest.CreatPointTest_4" start time: Jul 26 19:31 CEST
+"creatPointGoogleTest.CreatPointTest_4" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1456,7 +1365,7 @@ Note: Google Test filter = creatPointGoogleTest.CreatPointTest_4
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"creatPointGoogleTest.CreatPointTest_4" end time: Jul 26 19:31 CEST
+"creatPointGoogleTest.CreatPointTest_4" end time: Jul 26 19:34 CEST
 "creatPointGoogleTest.CreatPointTest_4" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1464,7 +1373,7 @@ Test Passed.
 40/111 Test: isEqualGoogleTest.isEqual_ExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=isEqualGoogleTest.isEqual_ExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isEqualGoogleTest.isEqual_ExpectTrue" start time: Jul 26 19:31 CEST
+"isEqualGoogleTest.isEqual_ExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1483,7 +1392,7 @@ Note: Google Test filter = isEqualGoogleTest.isEqual_ExpectTrue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isEqualGoogleTest.isEqual_ExpectTrue" end time: Jul 26 19:31 CEST
+"isEqualGoogleTest.isEqual_ExpectTrue" end time: Jul 26 19:34 CEST
 "isEqualGoogleTest.isEqual_ExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1491,7 +1400,7 @@ Test Passed.
 41/111 Test: isEqualGoogleTest.isEqual_ExpectFalseX
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=isEqualGoogleTest.isEqual_ExpectFalseX" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isEqualGoogleTest.isEqual_ExpectFalseX" start time: Jul 26 19:31 CEST
+"isEqualGoogleTest.isEqual_ExpectFalseX" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1510,7 +1419,7 @@ Note: Google Test filter = isEqualGoogleTest.isEqual_ExpectFalseX
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isEqualGoogleTest.isEqual_ExpectFalseX" end time: Jul 26 19:31 CEST
+"isEqualGoogleTest.isEqual_ExpectFalseX" end time: Jul 26 19:34 CEST
 "isEqualGoogleTest.isEqual_ExpectFalseX" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1518,7 +1427,7 @@ Test Passed.
 42/111 Test: isEqualGoogleTest.isEqual_ExpectFalseY
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=isEqualGoogleTest.isEqual_ExpectFalseY" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isEqualGoogleTest.isEqual_ExpectFalseY" start time: Jul 26 19:31 CEST
+"isEqualGoogleTest.isEqual_ExpectFalseY" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1537,7 +1446,7 @@ Note: Google Test filter = isEqualGoogleTest.isEqual_ExpectFalseY
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isEqualGoogleTest.isEqual_ExpectFalseY" end time: Jul 26 19:31 CEST
+"isEqualGoogleTest.isEqual_ExpectFalseY" end time: Jul 26 19:34 CEST
 "isEqualGoogleTest.isEqual_ExpectFalseY" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1545,7 +1454,7 @@ Test Passed.
 43/111 Test: isEqualGoogleTest.isEqual_ExpectFalseXY
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=isEqualGoogleTest.isEqual_ExpectFalseXY" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isEqualGoogleTest.isEqual_ExpectFalseXY" start time: Jul 26 19:31 CEST
+"isEqualGoogleTest.isEqual_ExpectFalseXY" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1564,7 +1473,7 @@ Note: Google Test filter = isEqualGoogleTest.isEqual_ExpectFalseXY
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isEqualGoogleTest.isEqual_ExpectFalseXY" end time: Jul 26 19:31 CEST
+"isEqualGoogleTest.isEqual_ExpectFalseXY" end time: Jul 26 19:34 CEST
 "isEqualGoogleTest.isEqual_ExpectFalseXY" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1572,7 +1481,7 @@ Test Passed.
 44/111 Test: getLengthGoogleTest.getLengthExpectTrue_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=getLengthGoogleTest.getLengthExpectTrue_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getLengthGoogleTest.getLengthExpectTrue_1" start time: Jul 26 19:31 CEST
+"getLengthGoogleTest.getLengthExpectTrue_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1591,7 +1500,7 @@ Note: Google Test filter = getLengthGoogleTest.getLengthExpectTrue_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getLengthGoogleTest.getLengthExpectTrue_1" end time: Jul 26 19:31 CEST
+"getLengthGoogleTest.getLengthExpectTrue_1" end time: Jul 26 19:34 CEST
 "getLengthGoogleTest.getLengthExpectTrue_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1599,7 +1508,7 @@ Test Passed.
 45/111 Test: getLengthGoogleTest.getLengthExpectTrue_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=getLengthGoogleTest.getLengthExpectTrue_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getLengthGoogleTest.getLengthExpectTrue_2" start time: Jul 26 19:31 CEST
+"getLengthGoogleTest.getLengthExpectTrue_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1618,7 +1527,7 @@ Note: Google Test filter = getLengthGoogleTest.getLengthExpectTrue_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getLengthGoogleTest.getLengthExpectTrue_2" end time: Jul 26 19:31 CEST
+"getLengthGoogleTest.getLengthExpectTrue_2" end time: Jul 26 19:34 CEST
 "getLengthGoogleTest.getLengthExpectTrue_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1626,7 +1535,7 @@ Test Passed.
 46/111 Test: getLengthGoogleTest.getLengthExpectTrue_3
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=getLengthGoogleTest.getLengthExpectTrue_3" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getLengthGoogleTest.getLengthExpectTrue_3" start time: Jul 26 19:31 CEST
+"getLengthGoogleTest.getLengthExpectTrue_3" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1645,7 +1554,7 @@ Note: Google Test filter = getLengthGoogleTest.getLengthExpectTrue_3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getLengthGoogleTest.getLengthExpectTrue_3" end time: Jul 26 19:31 CEST
+"getLengthGoogleTest.getLengthExpectTrue_3" end time: Jul 26 19:34 CEST
 "getLengthGoogleTest.getLengthExpectTrue_3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1653,7 +1562,7 @@ Test Passed.
 47/111 Test: getLengthGoogleTest.getLengthExpectTrue_4
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=getLengthGoogleTest.getLengthExpectTrue_4" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getLengthGoogleTest.getLengthExpectTrue_4" start time: Jul 26 19:31 CEST
+"getLengthGoogleTest.getLengthExpectTrue_4" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1672,7 +1581,7 @@ Note: Google Test filter = getLengthGoogleTest.getLengthExpectTrue_4
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getLengthGoogleTest.getLengthExpectTrue_4" end time: Jul 26 19:31 CEST
+"getLengthGoogleTest.getLengthExpectTrue_4" end time: Jul 26 19:34 CEST
 "getLengthGoogleTest.getLengthExpectTrue_4" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1680,7 +1589,7 @@ Test Passed.
 48/111 Test: getLengthGoogleTest.distanceToExpectTrue_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=getLengthGoogleTest.distanceToExpectTrue_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getLengthGoogleTest.distanceToExpectTrue_2" start time: Jul 26 19:31 CEST
+"getLengthGoogleTest.distanceToExpectTrue_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1699,7 +1608,7 @@ Note: Google Test filter = getLengthGoogleTest.distanceToExpectTrue_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getLengthGoogleTest.distanceToExpectTrue_2" end time: Jul 26 19:31 CEST
+"getLengthGoogleTest.distanceToExpectTrue_2" end time: Jul 26 19:34 CEST
 "getLengthGoogleTest.distanceToExpectTrue_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1707,7 +1616,7 @@ Test Passed.
 49/111 Test: getLengthGoogleTest.distanceToExpectTrue_3
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=getLengthGoogleTest.distanceToExpectTrue_3" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getLengthGoogleTest.distanceToExpectTrue_3" start time: Jul 26 19:31 CEST
+"getLengthGoogleTest.distanceToExpectTrue_3" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1726,7 +1635,7 @@ Note: Google Test filter = getLengthGoogleTest.distanceToExpectTrue_3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getLengthGoogleTest.distanceToExpectTrue_3" end time: Jul 26 19:31 CEST
+"getLengthGoogleTest.distanceToExpectTrue_3" end time: Jul 26 19:34 CEST
 "getLengthGoogleTest.distanceToExpectTrue_3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1734,7 +1643,7 @@ Test Passed.
 50/111 Test: distanceToGoogleTest.distanceToExpectTrue_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=distanceToGoogleTest.distanceToExpectTrue_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"distanceToGoogleTest.distanceToExpectTrue_1" start time: Jul 26 19:31 CEST
+"distanceToGoogleTest.distanceToExpectTrue_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1753,7 +1662,7 @@ Note: Google Test filter = distanceToGoogleTest.distanceToExpectTrue_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"distanceToGoogleTest.distanceToExpectTrue_1" end time: Jul 26 19:31 CEST
+"distanceToGoogleTest.distanceToExpectTrue_1" end time: Jul 26 19:34 CEST
 "distanceToGoogleTest.distanceToExpectTrue_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1761,7 +1670,7 @@ Test Passed.
 51/111 Test: addPointsGoogleTest.addPointsTest_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=addPointsGoogleTest.addPointsTest_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"addPointsGoogleTest.addPointsTest_1" start time: Jul 26 19:31 CEST
+"addPointsGoogleTest.addPointsTest_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1780,7 +1689,7 @@ Note: Google Test filter = addPointsGoogleTest.addPointsTest_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"addPointsGoogleTest.addPointsTest_1" end time: Jul 26 19:31 CEST
+"addPointsGoogleTest.addPointsTest_1" end time: Jul 26 19:34 CEST
 "addPointsGoogleTest.addPointsTest_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1788,7 +1697,7 @@ Test Passed.
 52/111 Test: addPointsGoogleTest.addPointsTest_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=addPointsGoogleTest.addPointsTest_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"addPointsGoogleTest.addPointsTest_2" start time: Jul 26 19:31 CEST
+"addPointsGoogleTest.addPointsTest_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1807,7 +1716,7 @@ Note: Google Test filter = addPointsGoogleTest.addPointsTest_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"addPointsGoogleTest.addPointsTest_2" end time: Jul 26 19:31 CEST
+"addPointsGoogleTest.addPointsTest_2" end time: Jul 26 19:34 CEST
 "addPointsGoogleTest.addPointsTest_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1815,7 +1724,7 @@ Test Passed.
 53/111 Test: subtractPointsGoogleTest.subtractPointsTest_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=subtractPointsGoogleTest.subtractPointsTest_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"subtractPointsGoogleTest.subtractPointsTest_1" start time: Jul 26 19:31 CEST
+"subtractPointsGoogleTest.subtractPointsTest_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1834,7 +1743,7 @@ Note: Google Test filter = subtractPointsGoogleTest.subtractPointsTest_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"subtractPointsGoogleTest.subtractPointsTest_1" end time: Jul 26 19:31 CEST
+"subtractPointsGoogleTest.subtractPointsTest_1" end time: Jul 26 19:34 CEST
 "subtractPointsGoogleTest.subtractPointsTest_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1842,7 +1751,7 @@ Test Passed.
 54/111 Test: subtractPointsGoogleTest.subtractPointsTest_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=subtractPointsGoogleTest.subtractPointsTest_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"subtractPointsGoogleTest.subtractPointsTest_2" start time: Jul 26 19:31 CEST
+"subtractPointsGoogleTest.subtractPointsTest_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1861,7 +1770,7 @@ Note: Google Test filter = subtractPointsGoogleTest.subtractPointsTest_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"subtractPointsGoogleTest.subtractPointsTest_2" end time: Jul 26 19:31 CEST
+"subtractPointsGoogleTest.subtractPointsTest_2" end time: Jul 26 19:34 CEST
 "subtractPointsGoogleTest.subtractPointsTest_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1869,7 +1778,7 @@ Test Passed.
 55/111 Test: multiplyPointGoogleTest.multiplyPointTest_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=multiplyPointGoogleTest.multiplyPointTest_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"multiplyPointGoogleTest.multiplyPointTest_1" start time: Jul 26 19:31 CEST
+"multiplyPointGoogleTest.multiplyPointTest_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1888,7 +1797,7 @@ Note: Google Test filter = multiplyPointGoogleTest.multiplyPointTest_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"multiplyPointGoogleTest.multiplyPointTest_1" end time: Jul 26 19:31 CEST
+"multiplyPointGoogleTest.multiplyPointTest_1" end time: Jul 26 19:34 CEST
 "multiplyPointGoogleTest.multiplyPointTest_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1896,7 +1805,7 @@ Test Passed.
 56/111 Test: rotateGoogleTest.rotateTest_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=rotateGoogleTest.rotateTest_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"rotateGoogleTest.rotateTest_1" start time: Jul 26 19:31 CEST
+"rotateGoogleTest.rotateTest_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1915,7 +1824,7 @@ Note: Google Test filter = rotateGoogleTest.rotateTest_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"rotateGoogleTest.rotateTest_1" end time: Jul 26 19:31 CEST
+"rotateGoogleTest.rotateTest_1" end time: Jul 26 19:34 CEST
 "rotateGoogleTest.rotateTest_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1923,7 +1832,7 @@ Test Passed.
 57/111 Test: rotateGoogleTest.rotateTest_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=rotateGoogleTest.rotateTest_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"rotateGoogleTest.rotateTest_2" start time: Jul 26 19:31 CEST
+"rotateGoogleTest.rotateTest_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1942,7 +1851,7 @@ Note: Google Test filter = rotateGoogleTest.rotateTest_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"rotateGoogleTest.rotateTest_2" end time: Jul 26 19:31 CEST
+"rotateGoogleTest.rotateTest_2" end time: Jul 26 19:34 CEST
 "rotateGoogleTest.rotateTest_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1950,7 +1859,7 @@ Test Passed.
 58/111 Test: rotateGoogleTest.rotateTest_3
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test" "--gtest_filter=rotateGoogleTest.rotateTest_3" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"rotateGoogleTest.rotateTest_3" start time: Jul 26 19:31 CEST
+"rotateGoogleTest.rotateTest_3" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1969,7 +1878,7 @@ Note: Google Test filter = rotateGoogleTest.rotateTest_3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"rotateGoogleTest.rotateTest_3" end time: Jul 26 19:31 CEST
+"rotateGoogleTest.rotateTest_3" end time: Jul 26 19:34 CEST
 "rotateGoogleTest.rotateTest_3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1977,7 +1886,7 @@ Test Passed.
 59/111 Test: GetCenterOOPTest.getCenter_forZeroZero
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=GetCenterOOPTest.getCenter_forZeroZero" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"GetCenterOOPTest.getCenter_forZeroZero" start time: Jul 26 19:31 CEST
+"GetCenterOOPTest.getCenter_forZeroZero" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1996,7 +1905,7 @@ Note: Google Test filter = GetCenterOOPTest.getCenter_forZeroZero
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"GetCenterOOPTest.getCenter_forZeroZero" end time: Jul 26 19:31 CEST
+"GetCenterOOPTest.getCenter_forZeroZero" end time: Jul 26 19:34 CEST
 "GetCenterOOPTest.getCenter_forZeroZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2004,7 +1913,7 @@ Test Passed.
 60/111 Test: GetRadiusOOPTest.getRadius
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=GetRadiusOOPTest.getRadius" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"GetRadiusOOPTest.getRadius" start time: Jul 26 19:31 CEST
+"GetRadiusOOPTest.getRadius" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2023,7 +1932,7 @@ Note: Google Test filter = GetRadiusOOPTest.getRadius
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"GetRadiusOOPTest.getRadius" end time: Jul 26 19:31 CEST
+"GetRadiusOOPTest.getRadius" end time: Jul 26 19:34 CEST
 "GetRadiusOOPTest.getRadius" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2031,7 +1940,7 @@ Test Passed.
 61/111 Test: CreatCircleTest.creatCircle_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=CreatCircleTest.creatCircle_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"CreatCircleTest.creatCircle_1" start time: Jul 26 19:31 CEST
+"CreatCircleTest.creatCircle_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2050,7 +1959,7 @@ Note: Google Test filter = CreatCircleTest.creatCircle_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CreatCircleTest.creatCircle_1" end time: Jul 26 19:31 CEST
+"CreatCircleTest.creatCircle_1" end time: Jul 26 19:34 CEST
 "CreatCircleTest.creatCircle_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2058,7 +1967,7 @@ Test Passed.
 62/111 Test: CreatCircleTest.creatCircle_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=CreatCircleTest.creatCircle_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"CreatCircleTest.creatCircle_2" start time: Jul 26 19:31 CEST
+"CreatCircleTest.creatCircle_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2077,7 +1986,7 @@ Note: Google Test filter = CreatCircleTest.creatCircle_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CreatCircleTest.creatCircle_2" end time: Jul 26 19:31 CEST
+"CreatCircleTest.creatCircle_2" end time: Jul 26 19:34 CEST
 "CreatCircleTest.creatCircle_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2085,7 +1994,7 @@ Test Passed.
 63/111 Test: CreatCircleTest.creatCircle_3
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=CreatCircleTest.creatCircle_3" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"CreatCircleTest.creatCircle_3" start time: Jul 26 19:31 CEST
+"CreatCircleTest.creatCircle_3" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2104,7 +2013,7 @@ Note: Google Test filter = CreatCircleTest.creatCircle_3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CreatCircleTest.creatCircle_3" end time: Jul 26 19:31 CEST
+"CreatCircleTest.creatCircle_3" end time: Jul 26 19:34 CEST
 "CreatCircleTest.creatCircle_3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2112,7 +2021,7 @@ Test Passed.
 64/111 Test: AreaTest.area_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=AreaTest.area_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"AreaTest.area_1" start time: Jul 26 19:31 CEST
+"AreaTest.area_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2131,7 +2040,7 @@ Note: Google Test filter = AreaTest.area_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"AreaTest.area_1" end time: Jul 26 19:31 CEST
+"AreaTest.area_1" end time: Jul 26 19:34 CEST
 "AreaTest.area_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2139,7 +2048,7 @@ Test Passed.
 65/111 Test: AreaTest.area_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=AreaTest.area_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"AreaTest.area_2" start time: Jul 26 19:31 CEST
+"AreaTest.area_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2158,7 +2067,7 @@ Note: Google Test filter = AreaTest.area_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"AreaTest.area_2" end time: Jul 26 19:31 CEST
+"AreaTest.area_2" end time: Jul 26 19:34 CEST
 "AreaTest.area_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2166,7 +2075,7 @@ Test Passed.
 66/111 Test: PeripheryTest.periphery_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=PeripheryTest.periphery_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"PeripheryTest.periphery_1" start time: Jul 26 19:31 CEST
+"PeripheryTest.periphery_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2185,7 +2094,7 @@ Note: Google Test filter = PeripheryTest.periphery_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"PeripheryTest.periphery_1" end time: Jul 26 19:31 CEST
+"PeripheryTest.periphery_1" end time: Jul 26 19:34 CEST
 "PeripheryTest.periphery_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2193,7 +2102,7 @@ Test Passed.
 67/111 Test: isInsideTest.isInside_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=isInsideTest.isInside_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isInsideTest.isInside_1" start time: Jul 26 19:31 CEST
+"isInsideTest.isInside_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2212,7 +2121,7 @@ Note: Google Test filter = isInsideTest.isInside_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isInsideTest.isInside_1" end time: Jul 26 19:31 CEST
+"isInsideTest.isInside_1" end time: Jul 26 19:34 CEST
 "isInsideTest.isInside_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2220,7 +2129,7 @@ Test Passed.
 68/111 Test: isInsideTest.isInside_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=isInsideTest.isInside_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isInsideTest.isInside_2" start time: Jul 26 19:31 CEST
+"isInsideTest.isInside_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2239,7 +2148,7 @@ Note: Google Test filter = isInsideTest.isInside_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isInsideTest.isInside_2" end time: Jul 26 19:31 CEST
+"isInsideTest.isInside_2" end time: Jul 26 19:34 CEST
 "isInsideTest.isInside_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2247,7 +2156,7 @@ Test Passed.
 69/111 Test: moveTest.move_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=moveTest.move_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"moveTest.move_1" start time: Jul 26 19:31 CEST
+"moveTest.move_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2266,7 +2175,7 @@ Note: Google Test filter = moveTest.move_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"moveTest.move_1" end time: Jul 26 19:31 CEST
+"moveTest.move_1" end time: Jul 26 19:34 CEST
 "moveTest.move_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2274,7 +2183,7 @@ Test Passed.
 70/111 Test: resizeTest.resize_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/circle_test" "--gtest_filter=resizeTest.resize_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"resizeTest.resize_1" start time: Jul 26 19:31 CEST
+"resizeTest.resize_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2293,7 +2202,7 @@ Note: Google Test filter = resizeTest.resize_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"resizeTest.resize_1" end time: Jul 26 19:31 CEST
+"resizeTest.resize_1" end time: Jul 26 19:34 CEST
 "resizeTest.resize_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2301,7 +2210,7 @@ Test Passed.
 71/111 Test: isfuzzyEqualPoints.FuzzyEqualPointsExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/geo_compare_test" "--gtest_filter=isfuzzyEqualPoints.FuzzyEqualPointsExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isfuzzyEqualPoints.FuzzyEqualPointsExpectTrue" start time: Jul 26 19:31 CEST
+"isfuzzyEqualPoints.FuzzyEqualPointsExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2320,7 +2229,7 @@ Note: Google Test filter = isfuzzyEqualPoints.FuzzyEqualPointsExpectTrue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isfuzzyEqualPoints.FuzzyEqualPointsExpectTrue" end time: Jul 26 19:31 CEST
+"isfuzzyEqualPoints.FuzzyEqualPointsExpectTrue" end time: Jul 26 19:34 CEST
 "isfuzzyEqualPoints.FuzzyEqualPointsExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2328,7 +2237,7 @@ Test Passed.
 72/111 Test: isfuzzyEqualPoints.FuzzyEqualPointsExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/geo_compare_test" "--gtest_filter=isfuzzyEqualPoints.FuzzyEqualPointsExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isfuzzyEqualPoints.FuzzyEqualPointsExpectFalse" start time: Jul 26 19:31 CEST
+"isfuzzyEqualPoints.FuzzyEqualPointsExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2347,7 +2256,7 @@ Note: Google Test filter = isfuzzyEqualPoints.FuzzyEqualPointsExpectFalse
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isfuzzyEqualPoints.FuzzyEqualPointsExpectFalse" end time: Jul 26 19:31 CEST
+"isfuzzyEqualPoints.FuzzyEqualPointsExpectFalse" end time: Jul 26 19:34 CEST
 "isfuzzyEqualPoints.FuzzyEqualPointsExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2355,7 +2264,7 @@ Test Passed.
 73/111 Test: isfuzzyEqualAngles.FuzzyEqualAnglesExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/geo_compare_test" "--gtest_filter=isfuzzyEqualAngles.FuzzyEqualAnglesExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isfuzzyEqualAngles.FuzzyEqualAnglesExpectTrue" start time: Jul 26 19:31 CEST
+"isfuzzyEqualAngles.FuzzyEqualAnglesExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2374,7 +2283,7 @@ Note: Google Test filter = isfuzzyEqualAngles.FuzzyEqualAnglesExpectTrue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isfuzzyEqualAngles.FuzzyEqualAnglesExpectTrue" end time: Jul 26 19:31 CEST
+"isfuzzyEqualAngles.FuzzyEqualAnglesExpectTrue" end time: Jul 26 19:34 CEST
 "isfuzzyEqualAngles.FuzzyEqualAnglesExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2382,7 +2291,7 @@ Test Passed.
 74/111 Test: isfuzzyEqualAngles.FuzzyEqualAnglesExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/geo_compare_test" "--gtest_filter=isfuzzyEqualAngles.FuzzyEqualAnglesExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isfuzzyEqualAngles.FuzzyEqualAnglesExpectFalse" start time: Jul 26 19:31 CEST
+"isfuzzyEqualAngles.FuzzyEqualAnglesExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2401,7 +2310,7 @@ Note: Google Test filter = isfuzzyEqualAngles.FuzzyEqualAnglesExpectFalse
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isfuzzyEqualAngles.FuzzyEqualAnglesExpectFalse" end time: Jul 26 19:31 CEST
+"isfuzzyEqualAngles.FuzzyEqualAnglesExpectFalse" end time: Jul 26 19:34 CEST
 "isfuzzyEqualAngles.FuzzyEqualAnglesExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2409,7 +2318,7 @@ Test Passed.
 75/111 Test: isfuzzyEqualPoses.FuzzyEqualPosesExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/geo_compare_test" "--gtest_filter=isfuzzyEqualPoses.FuzzyEqualPosesExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isfuzzyEqualPoses.FuzzyEqualPosesExpectTrue" start time: Jul 26 19:31 CEST
+"isfuzzyEqualPoses.FuzzyEqualPosesExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2428,7 +2337,7 @@ Note: Google Test filter = isfuzzyEqualPoses.FuzzyEqualPosesExpectTrue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isfuzzyEqualPoses.FuzzyEqualPosesExpectTrue" end time: Jul 26 19:31 CEST
+"isfuzzyEqualPoses.FuzzyEqualPosesExpectTrue" end time: Jul 26 19:34 CEST
 "isfuzzyEqualPoses.FuzzyEqualPosesExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2436,7 +2345,7 @@ Test Passed.
 76/111 Test: createLine1.CreateLine_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=createLine1.CreateLine_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"createLine1.CreateLine_1" start time: Jul 26 19:31 CEST
+"createLine1.CreateLine_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2455,7 +2364,7 @@ Note: Google Test filter = createLine1.CreateLine_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"createLine1.CreateLine_1" end time: Jul 26 19:31 CEST
+"createLine1.CreateLine_1" end time: Jul 26 19:34 CEST
 "createLine1.CreateLine_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2463,7 +2372,7 @@ Test Passed.
 77/111 Test: createLine2.CreateLine_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=createLine2.CreateLine_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"createLine2.CreateLine_2" start time: Jul 26 19:31 CEST
+"createLine2.CreateLine_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2482,7 +2391,7 @@ Note: Google Test filter = createLine2.CreateLine_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"createLine2.CreateLine_2" end time: Jul 26 19:31 CEST
+"createLine2.CreateLine_2" end time: Jul 26 19:34 CEST
 "createLine2.CreateLine_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2490,7 +2399,7 @@ Test Passed.
 78/111 Test: getDirection.GetDirection_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getDirection.GetDirection_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getDirection.GetDirection_1" start time: Jul 26 19:31 CEST
+"getDirection.GetDirection_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2509,7 +2418,7 @@ Note: Google Test filter = getDirection.GetDirection_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getDirection.GetDirection_1" end time: Jul 26 19:31 CEST
+"getDirection.GetDirection_1" end time: Jul 26 19:34 CEST
 "getDirection.GetDirection_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2517,7 +2426,7 @@ Test Passed.
 79/111 Test: getLength.GetLengthExpectsqrt8
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getLength.GetLengthExpectsqrt8" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getLength.GetLengthExpectsqrt8" start time: Jul 26 19:31 CEST
+"getLength.GetLengthExpectsqrt8" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2536,7 +2445,7 @@ Note: Google Test filter = getLength.GetLengthExpectsqrt8
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getLength.GetLengthExpectsqrt8" end time: Jul 26 19:31 CEST
+"getLength.GetLengthExpectsqrt8" end time: Jul 26 19:34 CEST
 "getLength.GetLengthExpectsqrt8" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2544,7 +2453,7 @@ Test Passed.
 80/111 Test: getLength.GetLengthExpects3
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getLength.GetLengthExpects3" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getLength.GetLengthExpects3" start time: Jul 26 19:31 CEST
+"getLength.GetLengthExpects3" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2563,7 +2472,7 @@ Note: Google Test filter = getLength.GetLengthExpects3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getLength.GetLengthExpects3" end time: Jul 26 19:31 CEST
+"getLength.GetLengthExpects3" end time: Jul 26 19:34 CEST
 "getLength.GetLengthExpects3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2571,7 +2480,7 @@ Test Passed.
 81/111 Test: shiftParallel.ShiftParallel_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=shiftParallel.ShiftParallel_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"shiftParallel.ShiftParallel_1" start time: Jul 26 19:31 CEST
+"shiftParallel.ShiftParallel_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2590,7 +2499,7 @@ Note: Google Test filter = shiftParallel.ShiftParallel_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"shiftParallel.ShiftParallel_1" end time: Jul 26 19:31 CEST
+"shiftParallel.ShiftParallel_1" end time: Jul 26 19:34 CEST
 "shiftParallel.ShiftParallel_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2598,7 +2507,7 @@ Test Passed.
 82/111 Test: getPerpendicularPoint.PerpendicularPoint
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getPerpendicularPoint.PerpendicularPoint" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getPerpendicularPoint.PerpendicularPoint" start time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2617,7 +2526,7 @@ Note: Google Test filter = getPerpendicularPoint.PerpendicularPoint
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getPerpendicularPoint.PerpendicularPoint" end time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint" end time: Jul 26 19:34 CEST
 "getPerpendicularPoint.PerpendicularPoint" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2625,7 +2534,7 @@ Test Passed.
 83/111 Test: getPerpendicularPoint.PerpendicularPoint_1
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getPerpendicularPoint.PerpendicularPoint_1" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getPerpendicularPoint.PerpendicularPoint_1" start time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_1" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2644,7 +2553,7 @@ Note: Google Test filter = getPerpendicularPoint.PerpendicularPoint_1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getPerpendicularPoint.PerpendicularPoint_1" end time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_1" end time: Jul 26 19:34 CEST
 "getPerpendicularPoint.PerpendicularPoint_1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2652,7 +2561,7 @@ Test Passed.
 84/111 Test: getPerpendicularPoint.PerpendicularPoint_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getPerpendicularPoint.PerpendicularPoint_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getPerpendicularPoint.PerpendicularPoint_2" start time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2671,7 +2580,7 @@ Note: Google Test filter = getPerpendicularPoint.PerpendicularPoint_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getPerpendicularPoint.PerpendicularPoint_2" end time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_2" end time: Jul 26 19:34 CEST
 "getPerpendicularPoint.PerpendicularPoint_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2679,7 +2588,7 @@ Test Passed.
 85/111 Test: getPerpendicularPoint.PerpendicularPoint_3
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getPerpendicularPoint.PerpendicularPoint_3" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getPerpendicularPoint.PerpendicularPoint_3" start time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_3" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2698,7 +2607,7 @@ Note: Google Test filter = getPerpendicularPoint.PerpendicularPoint_3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getPerpendicularPoint.PerpendicularPoint_3" end time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_3" end time: Jul 26 19:34 CEST
 "getPerpendicularPoint.PerpendicularPoint_3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2706,7 +2615,7 @@ Test Passed.
 86/111 Test: getPerpendicularPoint.PerpendicularPoint_4
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getPerpendicularPoint.PerpendicularPoint_4" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getPerpendicularPoint.PerpendicularPoint_4" start time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_4" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2725,7 +2634,7 @@ Note: Google Test filter = getPerpendicularPoint.PerpendicularPoint_4
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getPerpendicularPoint.PerpendicularPoint_4" end time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_4" end time: Jul 26 19:34 CEST
 "getPerpendicularPoint.PerpendicularPoint_4" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2733,7 +2642,7 @@ Test Passed.
 87/111 Test: getPerpendicularPoint.PerpendicularPoint_5
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getPerpendicularPoint.PerpendicularPoint_5" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getPerpendicularPoint.PerpendicularPoint_5" start time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_5" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2752,7 +2661,7 @@ Note: Google Test filter = getPerpendicularPoint.PerpendicularPoint_5
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getPerpendicularPoint.PerpendicularPoint_5" end time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_5" end time: Jul 26 19:34 CEST
 "getPerpendicularPoint.PerpendicularPoint_5" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2760,7 +2669,7 @@ Test Passed.
 88/111 Test: getPerpendicularPoint.PerpendicularPoint_6
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getPerpendicularPoint.PerpendicularPoint_6" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getPerpendicularPoint.PerpendicularPoint_6" start time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_6" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2779,7 +2688,7 @@ Note: Google Test filter = getPerpendicularPoint.PerpendicularPoint_6
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getPerpendicularPoint.PerpendicularPoint_6" end time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_6" end time: Jul 26 19:34 CEST
 "getPerpendicularPoint.PerpendicularPoint_6" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2787,7 +2696,7 @@ Test Passed.
 89/111 Test: getPerpendicularPoint.PerpendicularPoint_7
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getPerpendicularPoint.PerpendicularPoint_7" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getPerpendicularPoint.PerpendicularPoint_7" start time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_7" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2806,7 +2715,7 @@ Note: Google Test filter = getPerpendicularPoint.PerpendicularPoint_7
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getPerpendicularPoint.PerpendicularPoint_7" end time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_7" end time: Jul 26 19:34 CEST
 "getPerpendicularPoint.PerpendicularPoint_7" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2814,7 +2723,7 @@ Test Passed.
 90/111 Test: getPerpendicularPoint.PerpendicularPoint_8
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test" "--gtest_filter=getPerpendicularPoint.PerpendicularPoint_8" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getPerpendicularPoint.PerpendicularPoint_8" start time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_8" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2833,7 +2742,7 @@ Note: Google Test filter = getPerpendicularPoint.PerpendicularPoint_8
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getPerpendicularPoint.PerpendicularPoint_8" end time: Jul 26 19:31 CEST
+"getPerpendicularPoint.PerpendicularPoint_8" end time: Jul 26 19:34 CEST
 "getPerpendicularPoint.PerpendicularPoint_8" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2841,7 +2750,7 @@ Test Passed.
 91/111 Test: fixAngleRangeGoogleTest.FixAngleRangeFor45
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=fixAngleRangeGoogleTest.FixAngleRangeFor45" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"fixAngleRangeGoogleTest.FixAngleRangeFor45" start time: Jul 26 19:31 CEST
+"fixAngleRangeGoogleTest.FixAngleRangeFor45" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2860,7 +2769,7 @@ Note: Google Test filter = fixAngleRangeGoogleTest.FixAngleRangeFor45
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"fixAngleRangeGoogleTest.FixAngleRangeFor45" end time: Jul 26 19:31 CEST
+"fixAngleRangeGoogleTest.FixAngleRangeFor45" end time: Jul 26 19:34 CEST
 "fixAngleRangeGoogleTest.FixAngleRangeFor45" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2868,7 +2777,7 @@ Test Passed.
 92/111 Test: fixAngleRangeGoogleTest.FixAngleRangeFor120
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=fixAngleRangeGoogleTest.FixAngleRangeFor120" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"fixAngleRangeGoogleTest.FixAngleRangeFor120" start time: Jul 26 19:31 CEST
+"fixAngleRangeGoogleTest.FixAngleRangeFor120" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2887,7 +2796,7 @@ Note: Google Test filter = fixAngleRangeGoogleTest.FixAngleRangeFor120
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"fixAngleRangeGoogleTest.FixAngleRangeFor120" end time: Jul 26 19:31 CEST
+"fixAngleRangeGoogleTest.FixAngleRangeFor120" end time: Jul 26 19:34 CEST
 "fixAngleRangeGoogleTest.FixAngleRangeFor120" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2895,7 +2804,7 @@ Test Passed.
 93/111 Test: convertFromDegreeToRadiantGoogleTest.ConvertFrom360DegreeToRadiantExpect2PI
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=convertFromDegreeToRadiantGoogleTest.ConvertFrom360DegreeToRadiantExpect2PI" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"convertFromDegreeToRadiantGoogleTest.ConvertFrom360DegreeToRadiantExpect2PI" start time: Jul 26 19:31 CEST
+"convertFromDegreeToRadiantGoogleTest.ConvertFrom360DegreeToRadiantExpect2PI" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2914,7 +2823,7 @@ Note: Google Test filter = convertFromDegreeToRadiantGoogleTest.ConvertFrom360De
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"convertFromDegreeToRadiantGoogleTest.ConvertFrom360DegreeToRadiantExpect2PI" end time: Jul 26 19:31 CEST
+"convertFromDegreeToRadiantGoogleTest.ConvertFrom360DegreeToRadiantExpect2PI" end time: Jul 26 19:34 CEST
 "convertFromDegreeToRadiantGoogleTest.ConvertFrom360DegreeToRadiantExpect2PI" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2922,7 +2831,7 @@ Test Passed.
 94/111 Test: convertFromDegreeToRadiantGoogleTest.ConvertFrom180DegreeToRadiantExpectPI
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=convertFromDegreeToRadiantGoogleTest.ConvertFrom180DegreeToRadiantExpectPI" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"convertFromDegreeToRadiantGoogleTest.ConvertFrom180DegreeToRadiantExpectPI" start time: Jul 26 19:31 CEST
+"convertFromDegreeToRadiantGoogleTest.ConvertFrom180DegreeToRadiantExpectPI" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2941,7 +2850,7 @@ Note: Google Test filter = convertFromDegreeToRadiantGoogleTest.ConvertFrom180De
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"convertFromDegreeToRadiantGoogleTest.ConvertFrom180DegreeToRadiantExpectPI" end time: Jul 26 19:31 CEST
+"convertFromDegreeToRadiantGoogleTest.ConvertFrom180DegreeToRadiantExpectPI" end time: Jul 26 19:34 CEST
 "convertFromDegreeToRadiantGoogleTest.ConvertFrom180DegreeToRadiantExpectPI" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2949,7 +2858,7 @@ Test Passed.
 95/111 Test: convertFromDegreeToRadiantGoogleTest.ConvertFrom0DegreeToRadiantExpect0
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=convertFromDegreeToRadiantGoogleTest.ConvertFrom0DegreeToRadiantExpect0" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"convertFromDegreeToRadiantGoogleTest.ConvertFrom0DegreeToRadiantExpect0" start time: Jul 26 19:31 CEST
+"convertFromDegreeToRadiantGoogleTest.ConvertFrom0DegreeToRadiantExpect0" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2968,7 +2877,7 @@ Note: Google Test filter = convertFromDegreeToRadiantGoogleTest.ConvertFrom0Degr
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"convertFromDegreeToRadiantGoogleTest.ConvertFrom0DegreeToRadiantExpect0" end time: Jul 26 19:31 CEST
+"convertFromDegreeToRadiantGoogleTest.ConvertFrom0DegreeToRadiantExpect0" end time: Jul 26 19:34 CEST
 "convertFromDegreeToRadiantGoogleTest.ConvertFrom0DegreeToRadiantExpect0" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2976,7 +2885,7 @@ Test Passed.
 96/111 Test: getHalfRotationGoogleTest.HalfRotation
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=getHalfRotationGoogleTest.HalfRotation" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getHalfRotationGoogleTest.HalfRotation" start time: Jul 26 19:31 CEST
+"getHalfRotationGoogleTest.HalfRotation" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2995,7 +2904,7 @@ Note: Google Test filter = getHalfRotationGoogleTest.HalfRotation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getHalfRotationGoogleTest.HalfRotation" end time: Jul 26 19:31 CEST
+"getHalfRotationGoogleTest.HalfRotation" end time: Jul 26 19:34 CEST
 "getHalfRotationGoogleTest.HalfRotation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3003,7 +2912,7 @@ Test Passed.
 97/111 Test: getQuarterRotationGoogleTest.QuarterRotation
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=getQuarterRotationGoogleTest.QuarterRotation" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getQuarterRotationGoogleTest.QuarterRotation" start time: Jul 26 19:31 CEST
+"getQuarterRotationGoogleTest.QuarterRotation" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3022,7 +2931,7 @@ Note: Google Test filter = getQuarterRotationGoogleTest.QuarterRotation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getQuarterRotationGoogleTest.QuarterRotation" end time: Jul 26 19:31 CEST
+"getQuarterRotationGoogleTest.QuarterRotation" end time: Jul 26 19:34 CEST
 "getQuarterRotationGoogleTest.QuarterRotation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3030,7 +2939,7 @@ Test Passed.
 98/111 Test: getEighthRotationGoogleTest.EighthRotation
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=getEighthRotationGoogleTest.EighthRotation" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getEighthRotationGoogleTest.EighthRotation" start time: Jul 26 19:31 CEST
+"getEighthRotationGoogleTest.EighthRotation" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3049,7 +2958,7 @@ Note: Google Test filter = getEighthRotationGoogleTest.EighthRotation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getEighthRotationGoogleTest.EighthRotation" end time: Jul 26 19:31 CEST
+"getEighthRotationGoogleTest.EighthRotation" end time: Jul 26 19:34 CEST
 "getEighthRotationGoogleTest.EighthRotation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3057,7 +2966,7 @@ Test Passed.
 99/111 Test: getFullRotationGoogleTest.FullRotation
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=getFullRotationGoogleTest.FullRotation" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getFullRotationGoogleTest.FullRotation" start time: Jul 26 19:31 CEST
+"getFullRotationGoogleTest.FullRotation" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3076,7 +2985,7 @@ Note: Google Test filter = getFullRotationGoogleTest.FullRotation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getFullRotationGoogleTest.FullRotation" end time: Jul 26 19:31 CEST
+"getFullRotationGoogleTest.FullRotation" end time: Jul 26 19:34 CEST
 "getFullRotationGoogleTest.FullRotation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3084,7 +2993,7 @@ Test Passed.
 100/111 Test: getValueBetweenMinusPiAndPiGoogleTest.ValueBetweenMinusPiAndPiFor60
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=getValueBetweenMinusPiAndPiGoogleTest.ValueBetweenMinusPiAndPiFor60" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getValueBetweenMinusPiAndPiGoogleTest.ValueBetweenMinusPiAndPiFor60" start time: Jul 26 19:31 CEST
+"getValueBetweenMinusPiAndPiGoogleTest.ValueBetweenMinusPiAndPiFor60" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3103,7 +3012,7 @@ Note: Google Test filter = getValueBetweenMinusPiAndPiGoogleTest.ValueBetweenMin
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getValueBetweenMinusPiAndPiGoogleTest.ValueBetweenMinusPiAndPiFor60" end time: Jul 26 19:31 CEST
+"getValueBetweenMinusPiAndPiGoogleTest.ValueBetweenMinusPiAndPiFor60" end time: Jul 26 19:34 CEST
 "getValueBetweenMinusPiAndPiGoogleTest.ValueBetweenMinusPiAndPiFor60" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3111,7 +3020,7 @@ Test Passed.
 101/111 Test: getValueBetweenZeroAndTwoPiGoogleTest.ValueBetweenZeroAndTwoPiFor520
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=getValueBetweenZeroAndTwoPiGoogleTest.ValueBetweenZeroAndTwoPiFor520" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"getValueBetweenZeroAndTwoPiGoogleTest.ValueBetweenZeroAndTwoPiFor520" start time: Jul 26 19:31 CEST
+"getValueBetweenZeroAndTwoPiGoogleTest.ValueBetweenZeroAndTwoPiFor520" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3130,7 +3039,7 @@ Note: Google Test filter = getValueBetweenZeroAndTwoPiGoogleTest.ValueBetweenZer
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"getValueBetweenZeroAndTwoPiGoogleTest.ValueBetweenZeroAndTwoPiFor520" end time: Jul 26 19:31 CEST
+"getValueBetweenZeroAndTwoPiGoogleTest.ValueBetweenZeroAndTwoPiFor520" end time: Jul 26 19:34 CEST
 "getValueBetweenZeroAndTwoPiGoogleTest.ValueBetweenZeroAndTwoPiFor520" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3138,7 +3047,7 @@ Test Passed.
 102/111 Test: multiplyAngleGoogleTest.MultiplyAngle90with2_5
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=multiplyAngleGoogleTest.MultiplyAngle90with2_5" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"multiplyAngleGoogleTest.MultiplyAngle90with2_5" start time: Jul 26 19:31 CEST
+"multiplyAngleGoogleTest.MultiplyAngle90with2_5" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3157,7 +3066,7 @@ Note: Google Test filter = multiplyAngleGoogleTest.MultiplyAngle90with2_5
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"multiplyAngleGoogleTest.MultiplyAngle90with2_5" end time: Jul 26 19:31 CEST
+"multiplyAngleGoogleTest.MultiplyAngle90with2_5" end time: Jul 26 19:34 CEST
 "multiplyAngleGoogleTest.MultiplyAngle90with2_5" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3165,7 +3074,7 @@ Test Passed.
 103/111 Test: addAnglesGoogleTest.Add90and45
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=addAnglesGoogleTest.Add90and45" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"addAnglesGoogleTest.Add90and45" start time: Jul 26 19:31 CEST
+"addAnglesGoogleTest.Add90and45" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3184,7 +3093,7 @@ Note: Google Test filter = addAnglesGoogleTest.Add90and45
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"addAnglesGoogleTest.Add90and45" end time: Jul 26 19:31 CEST
+"addAnglesGoogleTest.Add90and45" end time: Jul 26 19:34 CEST
 "addAnglesGoogleTest.Add90and45" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3192,7 +3101,7 @@ Test Passed.
 104/111 Test: subtractAnglesGoogleTest.Subtract90and45
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=subtractAnglesGoogleTest.Subtract90and45" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"subtractAnglesGoogleTest.Subtract90and45" start time: Jul 26 19:31 CEST
+"subtractAnglesGoogleTest.Subtract90and45" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3211,7 +3120,7 @@ Note: Google Test filter = subtractAnglesGoogleTest.Subtract90and45
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"subtractAnglesGoogleTest.Subtract90and45" end time: Jul 26 19:31 CEST
+"subtractAnglesGoogleTest.Subtract90and45" end time: Jul 26 19:34 CEST
 "subtractAnglesGoogleTest.Subtract90and45" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3219,7 +3128,7 @@ Test Passed.
 105/111 Test: createAngleGoogleTest.CreateAngleFor1_1And3_3
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=createAngleGoogleTest.CreateAngleFor1_1And3_3" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"createAngleGoogleTest.CreateAngleFor1_1And3_3" start time: Jul 26 19:31 CEST
+"createAngleGoogleTest.CreateAngleFor1_1And3_3" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3238,7 +3147,7 @@ Note: Google Test filter = createAngleGoogleTest.CreateAngleFor1_1And3_3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"createAngleGoogleTest.CreateAngleFor1_1And3_3" end time: Jul 26 19:31 CEST
+"createAngleGoogleTest.CreateAngleFor1_1And3_3" end time: Jul 26 19:34 CEST
 "createAngleGoogleTest.CreateAngleFor1_1And3_3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3246,7 +3155,7 @@ Test Passed.
 106/111 Test: isEqualGoogleTest.IsEqualExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=isEqualGoogleTest.IsEqualExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isEqualGoogleTest.IsEqualExpectTrue" start time: Jul 26 19:31 CEST
+"isEqualGoogleTest.IsEqualExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3265,7 +3174,7 @@ Note: Google Test filter = isEqualGoogleTest.IsEqualExpectTrue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isEqualGoogleTest.IsEqualExpectTrue" end time: Jul 26 19:31 CEST
+"isEqualGoogleTest.IsEqualExpectTrue" end time: Jul 26 19:34 CEST
 "isEqualGoogleTest.IsEqualExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3273,7 +3182,7 @@ Test Passed.
 107/111 Test: isEqualGoogleTest.IsEqualExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=isEqualGoogleTest.IsEqualExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isEqualGoogleTest.IsEqualExpectFalse" start time: Jul 26 19:31 CEST
+"isEqualGoogleTest.IsEqualExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3292,7 +3201,7 @@ Note: Google Test filter = isEqualGoogleTest.IsEqualExpectFalse
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isEqualGoogleTest.IsEqualExpectFalse" end time: Jul 26 19:31 CEST
+"isEqualGoogleTest.IsEqualExpectFalse" end time: Jul 26 19:34 CEST
 "isEqualGoogleTest.IsEqualExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3300,7 +3209,7 @@ Test Passed.
 108/111 Test: isObtuseGoogleTest.IsObtuseExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=isObtuseGoogleTest.IsObtuseExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isObtuseGoogleTest.IsObtuseExpectTrue" start time: Jul 26 19:31 CEST
+"isObtuseGoogleTest.IsObtuseExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3319,7 +3228,7 @@ Note: Google Test filter = isObtuseGoogleTest.IsObtuseExpectTrue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isObtuseGoogleTest.IsObtuseExpectTrue" end time: Jul 26 19:31 CEST
+"isObtuseGoogleTest.IsObtuseExpectTrue" end time: Jul 26 19:34 CEST
 "isObtuseGoogleTest.IsObtuseExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3327,7 +3236,7 @@ Test Passed.
 109/111 Test: isObtuseGoogleTest.IsObtuseExpectFalse
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=isObtuseGoogleTest.IsObtuseExpectFalse" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"isObtuseGoogleTest.IsObtuseExpectFalse" start time: Jul 26 19:31 CEST
+"isObtuseGoogleTest.IsObtuseExpectFalse" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3346,7 +3255,7 @@ Note: Google Test filter = isObtuseGoogleTest.IsObtuseExpectFalse
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"isObtuseGoogleTest.IsObtuseExpectFalse" end time: Jul 26 19:31 CEST
+"isObtuseGoogleTest.IsObtuseExpectFalse" end time: Jul 26 19:34 CEST
 "isObtuseGoogleTest.IsObtuseExpectFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3354,7 +3263,7 @@ Test Passed.
 110/111 Test: AbsGoogleTest.Abs45_minus45ExpectTrue
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=AbsGoogleTest.Abs45_minus45ExpectTrue" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"AbsGoogleTest.Abs45_minus45ExpectTrue" start time: Jul 26 19:31 CEST
+"AbsGoogleTest.Abs45_minus45ExpectTrue" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3373,7 +3282,7 @@ Note: Google Test filter = AbsGoogleTest.Abs45_minus45ExpectTrue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"AbsGoogleTest.Abs45_minus45ExpectTrue" end time: Jul 26 19:31 CEST
+"AbsGoogleTest.Abs45_minus45ExpectTrue" end time: Jul 26 19:34 CEST
 "AbsGoogleTest.Abs45_minus45ExpectTrue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3381,7 +3290,7 @@ Test Passed.
 111/111 Test: createAngle2GoogleTest.CreateAngleTest_2
 Command: "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test" "--gtest_filter=createAngle2GoogleTest.CreateAngleTest_2" "--gtest_also_run_disabled_tests"
 Directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest
-"createAngle2GoogleTest.CreateAngleTest_2" start time: Jul 26 19:31 CEST
+"createAngle2GoogleTest.CreateAngleTest_2" start time: Jul 26 19:34 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -3400,9 +3309,8 @@ Note: Google Test filter = createAngle2GoogleTest.CreateAngleTest_2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"createAngle2GoogleTest.CreateAngleTest_2" end time: Jul 26 19:31 CEST
+"createAngle2GoogleTest.CreateAngleTest_2" end time: Jul 26 19:34 CEST
 "createAngle2GoogleTest.CreateAngleTest_2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jul 26 19:31 CEST
->>>>>>> google_test
+End testing: Jul 26 19:34 CEST

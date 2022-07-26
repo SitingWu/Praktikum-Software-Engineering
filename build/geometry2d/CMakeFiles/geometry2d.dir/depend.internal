@@ -5,10 +5,6 @@ geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o
  ../geometry2d/include/angle.h
  ../geometry2d/include/geo_compare.h
  ../geometry2d/include/point.h
-<<<<<<< HEAD
- ../util/include/compare.h
- /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.cpp
-=======
  ../geometry2d/include/pose.h
  ../util/include/compare.h
  /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.cpp
@@ -20,21 +16,12 @@ geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o
  ../geometry2d/include/pose.h
  ../util/include/compare.h
  /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/circle.cpp
->>>>>>> google_test
 geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o
  ../geometry2d/include/angle.h
  ../geometry2d/include/geo_compare.h
  ../geometry2d/include/point.h
  ../geometry2d/include/pose.h
  ../util/include/compare.h
-<<<<<<< HEAD
- /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.cpp
-geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o
- ../geometry2d/include/angle.h
- ../geometry2d/include/line.h
- ../geometry2d/include/point.h
- /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/line.cpp
-=======
  /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.cpp
 geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o
  ../geometry2d/include/angle.h
@@ -44,27 +31,17 @@ geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o
  ../geometry2d/include/pose.h
  ../util/include/compare.h
  /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/line.cpp
->>>>>>> google_test
 geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o
  ../geometry2d/include/angle.h
  ../geometry2d/include/geo_compare.h
  ../geometry2d/include/point.h
-<<<<<<< HEAD
- ../util/include/compare.h
- /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.cpp
-=======
  ../geometry2d/include/pose.h
  ../util/include/compare.h
  /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.cpp
->>>>>>> google_test
 geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.o
  ../geometry2d/include/angle.h
  ../geometry2d/include/geo_compare.h
  ../geometry2d/include/point.h
  ../geometry2d/include/pose.h
  ../util/include/compare.h
-<<<<<<< HEAD
- /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.cpp
-=======
  /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.cpp
->>>>>>> google_test

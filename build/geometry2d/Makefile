@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14"
+CMAKE_SOURCE_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build"
+CMAKE_BINARY_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/CMakeFiles/progress.marks"
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" 0
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/CMakeFiles/progress.marks"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/clean
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/preinstall
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/preinstall
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 geometry2d/CMakeFiles/geometry2d.dir/rule:
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/CMakeFiles/geometry2d.dir/rule
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 geometry2d/CMakeFiles/geometry2d.dir/rule
 .PHONY : geometry2d/CMakeFiles/geometry2d.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ geometry2d: geometry2d/CMakeFiles/geometry2d.dir/rule
 
 # fast build rule for target.
 geometry2d/fast:
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/build
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/build
 .PHONY : geometry2d/fast
 
 src/angle.o: src/angle.cpp.o
@@ -188,11 +188,7 @@ src/angle.o: src/angle.cpp.o
 
 # target to build an object file
 src/angle.cpp.o:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o
->>>>>>> google_test
 .PHONY : src/angle.cpp.o
 
 src/angle.i: src/angle.cpp.i
@@ -201,11 +197,7 @@ src/angle.i: src/angle.cpp.i
 
 # target to preprocess a source file
 src/angle.cpp.i:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.i
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.i
->>>>>>> google_test
 .PHONY : src/angle.cpp.i
 
 src/angle.s: src/angle.cpp.s
@@ -214,11 +206,6 @@ src/angle.s: src/angle.cpp.s
 
 # target to generate assembly for a file
 src/angle.cpp.s:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.s
-.PHONY : src/angle.cpp.s
-
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.s
 .PHONY : src/angle.cpp.s
 
@@ -249,18 +236,13 @@ src/circle.cpp.s:
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.s
 .PHONY : src/circle.cpp.s
 
->>>>>>> google_test
 src/geo_compare.o: src/geo_compare.cpp.o
 
 .PHONY : src/geo_compare.o
 
 # target to build an object file
 src/geo_compare.cpp.o:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o
->>>>>>> google_test
 .PHONY : src/geo_compare.cpp.o
 
 src/geo_compare.i: src/geo_compare.cpp.i
@@ -269,11 +251,7 @@ src/geo_compare.i: src/geo_compare.cpp.i
 
 # target to preprocess a source file
 src/geo_compare.cpp.i:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.i
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.i
->>>>>>> google_test
 .PHONY : src/geo_compare.cpp.i
 
 src/geo_compare.s: src/geo_compare.cpp.s
@@ -282,11 +260,7 @@ src/geo_compare.s: src/geo_compare.cpp.s
 
 # target to generate assembly for a file
 src/geo_compare.cpp.s:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.s
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.s
->>>>>>> google_test
 .PHONY : src/geo_compare.cpp.s
 
 src/line.o: src/line.cpp.o
@@ -295,11 +269,7 @@ src/line.o: src/line.cpp.o
 
 # target to build an object file
 src/line.cpp.o:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o
->>>>>>> google_test
 .PHONY : src/line.cpp.o
 
 src/line.i: src/line.cpp.i
@@ -308,11 +278,7 @@ src/line.i: src/line.cpp.i
 
 # target to preprocess a source file
 src/line.cpp.i:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.i
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.i
->>>>>>> google_test
 .PHONY : src/line.cpp.i
 
 src/line.s: src/line.cpp.s
@@ -321,11 +287,7 @@ src/line.s: src/line.cpp.s
 
 # target to generate assembly for a file
 src/line.cpp.s:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.s
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.s
->>>>>>> google_test
 .PHONY : src/line.cpp.s
 
 src/point.o: src/point.cpp.o
@@ -334,11 +296,7 @@ src/point.o: src/point.cpp.o
 
 # target to build an object file
 src/point.cpp.o:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o
->>>>>>> google_test
 .PHONY : src/point.cpp.o
 
 src/point.i: src/point.cpp.i
@@ -347,11 +305,7 @@ src/point.i: src/point.cpp.i
 
 # target to preprocess a source file
 src/point.cpp.i:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.i
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.i
->>>>>>> google_test
 .PHONY : src/point.cpp.i
 
 src/point.s: src/point.cpp.s
@@ -360,11 +314,7 @@ src/point.s: src/point.cpp.s
 
 # target to generate assembly for a file
 src/point.cpp.s:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.s
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.s
->>>>>>> google_test
 .PHONY : src/point.cpp.s
 
 src/pose.o: src/pose.cpp.o
@@ -373,11 +323,7 @@ src/pose.o: src/pose.cpp.o
 
 # target to build an object file
 src/pose.cpp.o:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.o
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.o
->>>>>>> google_test
 .PHONY : src/pose.cpp.o
 
 src/pose.i: src/pose.cpp.i
@@ -386,11 +332,7 @@ src/pose.i: src/pose.cpp.i
 
 # target to preprocess a source file
 src/pose.cpp.i:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.i
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.i
->>>>>>> google_test
 .PHONY : src/pose.cpp.i
 
 src/pose.s: src/pose.cpp.s
@@ -399,11 +341,7 @@ src/pose.s: src/pose.cpp.s
 
 # target to generate assembly for a file
 src/pose.cpp.s:
-<<<<<<< HEAD
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.s
-=======
 	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f geometry2d/CMakeFiles/geometry2d.dir/build.make geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.s
->>>>>>> google_test
 .PHONY : src/pose.cpp.s
 
 # Help Target
@@ -423,12 +361,9 @@ help:
 	@echo "... src/angle.o"
 	@echo "... src/angle.i"
 	@echo "... src/angle.s"
-<<<<<<< HEAD
-=======
 	@echo "... src/circle.o"
 	@echo "... src/circle.i"
 	@echo "... src/circle.s"
->>>>>>> google_test
 	@echo "... src/geo_compare.o"
 	@echo "... src/geo_compare.i"
 	@echo "... src/geo_compare.s"
@@ -452,6 +387,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

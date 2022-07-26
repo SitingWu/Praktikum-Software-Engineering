@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-CMAKE_PROGRESS_1 = 21
-CMAKE_PROGRESS_2 = 22
-=======
 CMAKE_PROGRESS_1 = 32
 CMAKE_PROGRESS_2 = 33
->>>>>>> google_test
 

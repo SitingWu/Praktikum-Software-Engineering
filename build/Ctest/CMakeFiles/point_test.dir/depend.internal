@@ -5,10 +5,6 @@ Ctest/CMakeFiles/point_test.dir/point_test.cpp.o
  ../geometry2d/include/angle.h
  ../geometry2d/include/geo_compare.h
  ../geometry2d/include/point.h
-<<<<<<< HEAD
- ../util/include/compare.h
- /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/point_test.cpp
-=======
  ../geometry2d/include/pose.h
  ../util/include/compare.h
  /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/point_test.cpp
@@ -33,4 +29,3 @@ Ctest/CMakeFiles/point_test.dir/point_test.cpp.o
  _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
  _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
  _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
->>>>>>> google_test

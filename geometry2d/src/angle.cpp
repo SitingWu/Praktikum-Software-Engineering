@@ -4,24 +4,6 @@
 
 #include <cmath>
 
-<<<<<<< HEAD
-double fixAngleRange(double angleValue) //return A im Intervall [-Pi;Pi]
-{
-    while (angleValue <= M_PI)
-    {
-        angleValue += 2 * M_PI;
-    }//A muss > Pi
-
-    angleValue -= 2 * M_PI * static_cast<unsigned int>(angleValue / (2 * M_PI));
-    //A = A-2Pi * uint(A/2Pi)
-    //uint(A/2Pi) : Periode
-    //return A im Intervall [0;2Pi]
-    return angleValue > M_PI ? angleValue - 2 * M_PI : angleValue;
-    //return (condition)?true : false
-    //if(A > Pi) return A-2Pi
-    //else       return A
-   
-=======
 double Angle::fixAngleRange() // return A im Intervall [-Pi;Pi]
 {
   while (this->value_ <= M_PI) {
@@ -37,7 +19,6 @@ double Angle::fixAngleRange() // return A im Intervall [-Pi;Pi]
   // return (condition)?true : false
   // if(A > Pi) return A-2Pi
   // else       return A
->>>>>>> google_test
 }
 
 Angle Angle::convertFromDegreeToRadiant() const {
@@ -94,18 +75,10 @@ Angle Angle::operator-(Angle other) {
   return difference;
 }
 
-<<<<<<< HEAD
-Angle createAngle(Point start, Point end)
-{
-    Point positionDifference = subtractPoints(end, start);//end.x-start.y
-    return Angle{fixAngleRange(atan2(positionDifference.y, positionDifference.x))};
-                              //atan2(y,x) : arctan(y/x)
-=======
 bool Angle::operator==(Angle other) const {
   Angle value(value_);
   Geo_compare geo(value);
   return geo.isFuzzyEqual(other.value_, 0.00001);
->>>>>>> google_test
 }
 
 Angle Angle::operator*(double factor) {

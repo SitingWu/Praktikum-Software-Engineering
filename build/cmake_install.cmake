@@ -1,4 +1,4 @@
-# Install script for directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14
+# Install script for directory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,36 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-<<<<<<< HEAD
-  include("/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/cmake_install.cmake")
-=======
   include("/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/cmake_install.cmake")
->>>>>>> google_test
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/cmake_install.cmake")
+  include("/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/include/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/src/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/cmake_install.cmake")
+  include("/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d/include/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -89,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
