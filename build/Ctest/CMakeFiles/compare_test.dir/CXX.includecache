@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../util/include/compare.h
+
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/compare_test.cpp
+compare.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/compare.h
+cassert
+-
+cstdlib
+-
+

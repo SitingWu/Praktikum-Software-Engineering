@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14"
+CMAKE_SOURCE_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build"
+CMAKE_BINARY_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,16 +78,27 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/CMakeFiles/progress.marks"
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 util/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" 0
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/CMakeFiles/progress.marks"
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 util/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 util/clean
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 util/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 util/preinstall
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 util/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 util/preinstall
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 util/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 util/CMakeFiles/util.dir/rule:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 util/CMakeFiles/util.dir/rule
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f CMakeFiles/Makefile2 util/CMakeFiles/util.dir/rule
 .PHONY : util/CMakeFiles/util.dir/rule
 
 # Convenience name for target.
@@ -122,7 +133,7 @@ util: util/CMakeFiles/util.dir/rule
 
 # fast build rule for target.
 util/fast:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/build
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/build
 .PHONY : util/fast
 
 src/compare.o: src/compare.cpp.o
@@ -131,7 +142,7 @@ src/compare.o: src/compare.cpp.o
 
 # target to build an object file
 src/compare.cpp.o:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/src/compare.cpp.o
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/src/compare.cpp.o
 .PHONY : src/compare.cpp.o
 
 src/compare.i: src/compare.cpp.i
@@ -140,7 +151,7 @@ src/compare.i: src/compare.cpp.i
 
 # target to preprocess a source file
 src/compare.cpp.i:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/src/compare.cpp.i
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/src/compare.cpp.i
 .PHONY : src/compare.cpp.i
 
 src/compare.s: src/compare.cpp.s
@@ -149,7 +160,7 @@ src/compare.s: src/compare.cpp.s
 
 # target to generate assembly for a file
 src/compare.cpp.s:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/src/compare.cpp.s
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/src/compare.cpp.s
 .PHONY : src/compare.cpp.s
 
 # Help Target
@@ -160,6 +171,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... util"
 	@echo "... src/compare.o"
 	@echo "... src/compare.i"
@@ -175,6 +187,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

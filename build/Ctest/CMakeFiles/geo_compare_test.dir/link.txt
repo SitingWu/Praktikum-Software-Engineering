@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/geo_compare_test.dir/geo_compare_test.cpp.o  -o geo_compare_test  ../geometry2d/libgeometry2d.a ../util/libutil.a 

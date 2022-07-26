@@ -1,2 +1,2 @@
-/usr/bin/ar qc libgeometry2d.a  
+/usr/bin/ar qc libgeometry2d.a  CMakeFiles/geometry2d.dir/src/point.cpp.o CMakeFiles/geometry2d.dir/src/pose.cpp.o CMakeFiles/geometry2d.dir/src/angle.cpp.o CMakeFiles/geometry2d.dir/src/line.cpp.o CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o
 /usr/bin/ranlib libgeometry2d.a

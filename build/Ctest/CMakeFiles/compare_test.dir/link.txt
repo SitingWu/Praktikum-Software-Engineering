@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/compare_test.dir/compare_test.cpp.o  -o compare_test  ../util/libutil.a 

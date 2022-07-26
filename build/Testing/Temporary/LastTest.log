@@ -1,0 +1,93 @@
+Start testing: May 29 23:42 CEST
+----------------------------------------------------------
+1/6 Testing: CompareFuzzyTest
+1/6 Test: CompareFuzzyTest
+Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/compare_test"
+Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"CompareFuzzyTest" start time: May 29 23:42 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CompareFuzzyTest" end time: May 29 23:42 CEST
+"CompareFuzzyTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: PoseTest
+2/6 Test: PoseTest
+Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/pose_test"
+Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"PoseTest" start time: May 29 23:42 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PoseTest" end time: May 29 23:42 CEST
+"PoseTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: PointTest
+3/6 Test: PointTest
+Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/point_test"
+Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"PointTest" start time: May 29 23:42 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PointTest" end time: May 29 23:42 CEST
+"PointTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: Geo_compareTest
+4/6 Test: Geo_compareTest
+Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/geo_compare_test"
+Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"Geo_compareTest" start time: May 29 23:42 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Geo_compareTest" end time: May 29 23:42 CEST
+"Geo_compareTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: LineTest
+5/6 Test: LineTest
+Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test"
+Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"LineTest" start time: May 29 23:42 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LineTest" end time: May 29 23:42 CEST
+"LineTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: AngleTest
+6/6 Test: AngleTest
+Command: "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/angle_test"
+Directory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+"AngleTest" start time: May 29 23:42 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AngleTest" end time: May 29 23:42 CEST
+"AngleTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 29 23:42 CEST

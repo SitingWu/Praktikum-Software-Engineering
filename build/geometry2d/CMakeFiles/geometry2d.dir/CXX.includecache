@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../geometry2d/include/geo_compare.h
+compare.h
+../geometry2d/include/compare.h
+
+../geometry2d/include/line.h
+angle.h
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../geometry2d/include/point.h
+angle.h
+../geometry2d/include/angle.h
+
+../geometry2d/include/pose.h
+angle.h
+../geometry2d/include/angle.h
+point.h
+../geometry2d/include/point.h
+
+../util/include/compare.h
+
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.cpp
+angle.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.h
+cmath
+-
+geo_compare.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+point.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.cpp
+geo_compare.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+angle.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.h
+point.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+pose.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.h
+
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/line.cpp
+line.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/line.h
+
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.cpp
+point.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+cmath
+-
+stdio.h
+-
+geo_compare.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.cpp
+pose.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.h
+geo_compare.h
+/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+
