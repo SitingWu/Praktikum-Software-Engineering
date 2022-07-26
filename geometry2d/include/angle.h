@@ -1,35 +1,39 @@
 #ifndef SEL_ANGLE_H
 #define SEL_ANGLE_H
 
+#include "geo_compare.h"
 #include "point.h"
+class Point;
+class Angle {
+public:
+  // costructors
+  Angle(double value) : value_(value){};
+  Angle() : value_(0.0){};
+  Angle(Point start, Point end);
+  Angle(Point source, Point targetOne, Point targetTwo);
 
+  // operators
+  Angle operator+(Angle other);
+  Angle operator-(Angle other);
+  bool operator==(Angle other) const;
+  Angle operator*(double factor);
 
-struct Point;
+  Angle abs();
+  Angle getHalfRotation();
+  Angle getQuarterRotation();
+  Angle getFullRotation();
+  Angle getEighthRotation();
+  Angle convertFromDegreeToRadiant() const;
 
-double fixAngleRange(double angleValue);
+  double fixAngleRange();
+  double getValueBetweenMinusPiAndPi();
+  double getValueBetweenZeroAndTwoPi();
+  double getValue() const;
+  void setValue(double value);
+  bool isObtuse();
 
-struct Angle
-{
-    double value{0.0};
+private:
+  double value_;
 };
 
-Angle createAngle(Point start, Point end);
-Angle createAngle(Point source, Point targetOne, Point targetTwo);
-
-double getValueBetweenMinusPiAndPi(Angle angle);
-double getValueBetweenZeroAndTwoPi(Angle angle);
-bool isObtuse(Angle angle);
-Angle abs(Angle angle);
-
-Angle addAngles(Angle one, Angle two);
-Angle subtractAngles(Angle one, Angle two);
-Angle multiplyAngle(Angle angle, double factor);
-bool isEqual(Angle one, Angle two);
-
-Angle getHalfRotation();
-Angle getQuarterRotation();
-Angle getFullRotation();
-Angle getEighthRotation();
-Angle convertFromDegreeToRadiant(double angle);
-
-#endif  // SEL_ANGLE_H
+#endif // SEL_ANGLE_H

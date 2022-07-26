@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build"
+=======
+CMAKE_SOURCE_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build"
+>>>>>>> google_test
 
 # Utility rule file for ExperimentalTest.
 
@@ -71,6 +78,10 @@ CMakeFiles/ExperimentalTest.dir/clean:
 .PHONY : CMakeFiles/ExperimentalTest.dir/clean
 
 CMakeFiles/ExperimentalTest.dir/depend:
+<<<<<<< HEAD
 	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles/ExperimentalTest.dir/DependInfo.cmake" --color=$(COLOR)
+=======
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles/ExperimentalTest.dir/DependInfo.cmake" --color=$(COLOR)
+>>>>>>> google_test
 .PHONY : CMakeFiles/ExperimentalTest.dir/depend
 

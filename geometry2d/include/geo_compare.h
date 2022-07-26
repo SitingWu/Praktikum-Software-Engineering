@@ -1,15 +1,30 @@
 #ifndef SEL_GEOCOMPARE_H
 #define SEL_GEOCOMPARE_H
 
+#include "angle.h"
 #include "compare.h"
+#include "point.h"
+#include "pose.h"
 
-struct Angle;
-struct Point;
-struct Pose;
+class Point;
+class Angle;
+class Pose;
+class Compare;
+class Geo_compare {
 
+public:
+  Geo_compare();
+  Geo_compare(Point &one) : point_(&one) {}
+  Geo_compare(Angle &one) : angle_(&one) {}
+  Geo_compare(Pose &one) : pose_(&one) {}
+  bool isFuzzyEqual(Point two, double epsilon) const;
+  bool isFuzzyEqual(Angle two, double epsilon) const;
+  bool isFuzzyEqual(Pose two, double epsilon) const;
 
-bool isFuzzyEqual(Point one, Point two, double epsilon);
-bool isFuzzyEqual(Angle one, Angle two, double epsilon);
-bool isFuzzyEqual(Pose one, Pose two, double epsilon);
+private:
+  Point *point_;
+  Angle *angle_;
+  Pose *pose_;
+};
 
-#endif  // SEL_GEOCOMPARE_H
+#endif // SEL_GEOCOMPARE_H

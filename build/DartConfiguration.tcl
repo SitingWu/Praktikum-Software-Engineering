@@ -4,14 +4,23 @@
 
 
 # Configuration directories and files
+<<<<<<< HEAD
 SourceDirectory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14
 BuildDirectory: /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+=======
+SourceDirectory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14
+BuildDirectory: /home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build
+>>>>>>> google_test
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
+<<<<<<< HEAD
 Site: stingwu
+=======
+Site: sitin
+>>>>>>> google_test
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -26,7 +35,11 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
+<<<<<<< HEAD
 ConfigureCommand: "/usr/bin/cmake" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14"
+=======
+ConfigureCommand: "/usr/bin/cmake" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14"
+>>>>>>> google_test
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -71,7 +84,11 @@ ValgrindCommand:
 ValgrindCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
+<<<<<<< HEAD
 MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
+=======
+MemoryCheckCommand: /usr/bin/valgrind
+>>>>>>> google_test
 MemoryCheckCommandOptions: 
 MemoryCheckSuppressionFile: 
 

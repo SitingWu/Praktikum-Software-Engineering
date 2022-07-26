@@ -6,5 +6,9 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
+<<<<<<< HEAD:build/Ctest/CMakeFiles/angle_test.dir/flags.make
 CXX_INCLUDES = -I"/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/util/include" -I"/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/include" -I"/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src" 
+=======
+CXX_INCLUDES = -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/util/include" -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/include" -I"/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src" -isystem "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/include" -isystem "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest" 
+>>>>>>> google_test:build/CMakeFiles/compare_test.dir/flags.make
 

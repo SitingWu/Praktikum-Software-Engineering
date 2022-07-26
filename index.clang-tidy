@@ -1,0 +1,42 @@
+FormatStyle: file
+
+Checks: '
+-*,
+bugprone*,
+cppcoreguidelines*
+google*,
+llvm*,
+misc*,
+modernize*,
+readability*,
+-modernize-use-trailing-return-type,
+-readability-magic-numbers,
+-llvmlibc-implementation-in-namespace,
+-llvmlibc-callee-namespace,
+-llvmlibc-restrict-system-libc-headers,
+-bugprone-easily-swappable-parameters,
+-readability-identifier-length,
+-readability-suspicious-call-argument,
+'
+
+WarningsAsErrors: '*'
+
+CheckOptions:
+  - key:             readability-identifier-naming.NamespaceCase
+    value:           lower_case
+  - key:             readability-identifier-naming.ClassCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.StructCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.UnionCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.EnumCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.FunctionCase
+    value:           camelBack
+  - key:             readability-identifier-naming.MethodCase
+    value:           camelBack
+  - key:             readability-identifier-naming.VariableCase
+    value:           camelBack
+  - key:             readability-identifier-naming.ParameterCase
+    value:           camelBack

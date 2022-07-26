@@ -1,0 +1,9 @@
+1:CompareFuzzyTest
+2:PoseTest
+3:PointTest
+4:Geo_compareTest
+5:LineTest
+6:AngleTest
+7:compare_google_test_NOT_BUILT
+8:pose_google_test_NOT_BUILT
+9:point_google_test_NOT_BUILT

@@ -1,0 +1,5 @@
+if(EXISTS "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test[1]_tests.cmake")
+  include("/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/line_test[1]_tests.cmake")
+else()
+  add_test(line_test_NOT_BUILT line_test_NOT_BUILT)
+endif()

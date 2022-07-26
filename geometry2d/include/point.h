@@ -2,25 +2,36 @@
 #define SEL_POINT_H
 
 #include "angle.h"
+// struct Angle;
+class Angle;
+class Geo_compare;
+class Pose;
 
+class Point {
 
-struct Angle;
+public:
+  // Constructor
+  Point(void) : x_(0.0), y_(0.0) {}
+  Point(double x, double y) : x_(x), y_(y) {}
+  Point(double distance, Angle angle);
+  // Operator
+  Point operator-(Point other) const;
+  bool operator==(Point other) const;
+  Point operator+(Point other) const;
+  Point operator*(double factor) const;
+  // getter Function
+  double getX() const;
+  double getY() const;
+  Point getPoint() const;
+  // Member
+  double getLength() const;
+  double distanceTo(Point other) const;
+  void rotate(Angle angle);
+  Point multiplyPoint(double factor) const;
 
-struct Point
-{
-    double x{0.0};
-    double y{0.0};
+private:
+  double x_;
+  double y_;
 };
 
-Point createPoint(double distance, Angle angle);
-
-bool isEqual(Point point1, Point point2);
-Point addPoints(Point one, Point two);
-Point subtractPoints(Point one, Point two);
-Point multiplyPoint(Point point, double factor);
-
-double getLength(Point point);
-double distanceTo(Point one, Point two);
-void rotate(Point& point, Angle angle);
-
-#endif  // SEL_POINT_H
+#endif // SEL_POINT_H

@@ -59,8 +59,13 @@ include CMakeFiles/geom.dir/flags.make
 
 CMakeFiles/geom.dir/main.cpp.o: CMakeFiles/geom.dir/flags.make
 CMakeFiles/geom.dir/main.cpp.o: ../main.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/geom.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geom.dir/main.cpp.o -c "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/main.cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/geom.dir/main.cpp.o"
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy=/usr/bin/clang-tidy --source="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/main.cpp" -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geom.dir/main.cpp.o -c "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/main.cpp"
+>>>>>>> google_test
 
 CMakeFiles/geom.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geom.dir/main.cpp.i"

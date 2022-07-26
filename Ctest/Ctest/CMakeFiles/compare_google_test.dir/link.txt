@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/compare_google_test.dir/compare_test.cpp.o  -o compare_google_test  ../lib/libgtest_main.a ../util/libutil.a ../lib/libgtest.a -lpthread 

@@ -7,12 +7,36 @@
 #IncludeRegexTransform: 
 
 ../geometry2d/include/angle.h
+<<<<<<< HEAD
+=======
+geo_compare.h
+../geometry2d/include/geo_compare.h
+point.h
+../geometry2d/include/point.h
+
+../geometry2d/include/circle.h
+compare.h
+../geometry2d/include/compare.h
+geo_compare.h
+../geometry2d/include/geo_compare.h
+>>>>>>> google_test
 point.h
 ../geometry2d/include/point.h
 
 ../geometry2d/include/geo_compare.h
+<<<<<<< HEAD
 compare.h
 ../geometry2d/include/compare.h
+=======
+angle.h
+../geometry2d/include/angle.h
+compare.h
+../geometry2d/include/compare.h
+point.h
+../geometry2d/include/point.h
+pose.h
+../geometry2d/include/pose.h
+>>>>>>> google_test
 
 ../geometry2d/include/line.h
 angle.h
@@ -27,11 +51,17 @@ angle.h
 ../geometry2d/include/pose.h
 angle.h
 ../geometry2d/include/angle.h
+<<<<<<< HEAD
+=======
+geo_compare.h
+../geometry2d/include/geo_compare.h
+>>>>>>> google_test
 point.h
 ../geometry2d/include/point.h
 
 ../util/include/compare.h
 
+<<<<<<< HEAD
 /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.cpp
 angle.h
 /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.h
@@ -71,4 +101,65 @@ pose.h
 /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.h
 geo_compare.h
 /home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+=======
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.cpp
+angle.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.h
+geo_compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+point.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+cmath
+-
+
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/circle.cpp
+circle.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/circle.h
+point.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+cmath
+-
+
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.cpp
+geo_compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+angle.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.h
+compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/compare.h
+point.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+pose.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.h
+
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/line.cpp
+line.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/line.h
+angle.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.h
+point.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.cpp
+point.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+angle.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.h
+geo_compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+cmath
+-
+cstdio
+-
+
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.cpp
+pose.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.h
+angle.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.h
+geo_compare.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.h
+point.h
+/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.h
+>>>>>>> google_test
 

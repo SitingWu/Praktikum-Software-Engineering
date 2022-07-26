@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/pose_google_test.dir/pose_test.cpp.o  -o pose_google_test  ../lib/libgtest_main.a ../geometry2d/libgeometry2d.a ../util/libutil.a ../lib/libgtest.a -lpthread 

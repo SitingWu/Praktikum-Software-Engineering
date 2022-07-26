@@ -4,9 +4,24 @@
 geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o: ../geometry2d/include/angle.h
 geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o: ../geometry2d/include/geo_compare.h
 geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o: ../geometry2d/include/point.h
+<<<<<<< HEAD
 geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o: ../util/include/compare.h
 geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o: ../geometry2d/src/angle.cpp
 
+=======
+geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o: ../geometry2d/include/pose.h
+geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o: ../util/include/compare.h
+geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o: ../geometry2d/src/angle.cpp
+
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o: ../geometry2d/include/angle.h
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o: ../geometry2d/include/circle.h
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o: ../geometry2d/include/geo_compare.h
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o: ../geometry2d/include/point.h
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o: ../geometry2d/include/pose.h
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o: ../util/include/compare.h
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o: ../geometry2d/src/circle.cpp
+
+>>>>>>> google_test
 geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o: ../geometry2d/include/angle.h
 geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o: ../geometry2d/include/geo_compare.h
 geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o: ../geometry2d/include/point.h
@@ -15,13 +30,25 @@ geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o: ../util/include/comp
 geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o: ../geometry2d/src/geo_compare.cpp
 
 geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: ../geometry2d/include/angle.h
+<<<<<<< HEAD
 geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: ../geometry2d/include/line.h
 geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: ../geometry2d/include/point.h
+=======
+geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: ../geometry2d/include/geo_compare.h
+geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: ../geometry2d/include/line.h
+geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: ../geometry2d/include/point.h
+geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: ../geometry2d/include/pose.h
+geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: ../util/include/compare.h
+>>>>>>> google_test
 geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: ../geometry2d/src/line.cpp
 
 geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o: ../geometry2d/include/angle.h
 geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o: ../geometry2d/include/geo_compare.h
 geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o: ../geometry2d/include/point.h
+<<<<<<< HEAD
+=======
+geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o: ../geometry2d/include/pose.h
+>>>>>>> google_test
 geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o: ../util/include/compare.h
 geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o: ../geometry2d/src/point.cpp
 

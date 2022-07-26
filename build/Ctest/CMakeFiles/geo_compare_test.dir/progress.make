@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 CMAKE_PROGRESS_1 = 5
 CMAKE_PROGRESS_2 = 6
+=======
+CMAKE_PROGRESS_1 = 7
+CMAKE_PROGRESS_2 = 8
+>>>>>>> google_test
 

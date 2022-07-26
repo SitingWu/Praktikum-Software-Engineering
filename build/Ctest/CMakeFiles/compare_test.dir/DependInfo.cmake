@@ -4,7 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
+<<<<<<< HEAD:build/Ctest/CMakeFiles/compare_test.dir/DependInfo.cmake
   "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/compare_test.cpp" "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o"
+=======
+  "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-src/googletest/src/gtest-all.cc" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+>>>>>>> google_test:build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake
+=======
+  "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/Ctest/compare_test.cpp" "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/Ctest/CMakeFiles/compare_test.dir/compare_test.cpp.o"
+>>>>>>> google_test
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,12 +20,32 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../util/include"
   "../geometry2d/include"
+<<<<<<< HEAD
+<<<<<<< HEAD:build/Ctest/CMakeFiles/compare_test.dir/DependInfo.cmake
   "../geometry2d/src"
+=======
+  "_deps/googletest-src/googletest/include"
+  "_deps/googletest-src/googletest"
+>>>>>>> google_test:build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake
+=======
+  "../geometry2d/src"
+  "_deps/googletest-src/googletest/include"
+  "_deps/googletest-src/googletest"
+>>>>>>> google_test
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+<<<<<<< HEAD
+<<<<<<< HEAD:build/Ctest/CMakeFiles/compare_test.dir/DependInfo.cmake
   "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/CMakeFiles/util.dir/DependInfo.cmake"
+=======
+>>>>>>> google_test:build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake
+=======
+  "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/util/CMakeFiles/util.dir/DependInfo.cmake"
+  "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+>>>>>>> google_test
   )
 
 # Fortran module output directory.

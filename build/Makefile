@@ -56,6 +56,40 @@ CMAKE_BINARY_DIR = "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -88,6 +122,18 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -499,6 +545,58 @@ geom/fast:
 .PHONY : geom/fast
 
 #=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
 # Target rules for targets named geometry2d
 
 # Build rule for target.
@@ -525,6 +623,7 @@ util/fast:
 .PHONY : util/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named line_test
 
 # Build rule for target.
@@ -562,6 +661,32 @@ geo_compare_test: cmake_check_build_system
 geo_compare_test/fast:
 	$(MAKE) -f Ctest/CMakeFiles/geo_compare_test.dir/build.make Ctest/CMakeFiles/geo_compare_test.dir/build
 .PHONY : geo_compare_test/fast
+=======
+# Target rules for targets named compare_test
+
+# Build rule for target.
+compare_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 compare_test
+.PHONY : compare_test
+
+# fast build rule for target.
+compare_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/compare_test.dir/build.make Ctest/CMakeFiles/compare_test.dir/build
+.PHONY : compare_test/fast
+
+#=============================================================================
+# Target rules for targets named pose_test
+
+# Build rule for target.
+pose_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pose_test
+.PHONY : pose_test
+
+# fast build rule for target.
+pose_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/pose_test.dir/build.make Ctest/CMakeFiles/pose_test.dir/build
+.PHONY : pose_test/fast
+>>>>>>> google_test
 
 #=============================================================================
 # Target rules for targets named point_test
@@ -577,6 +702,7 @@ point_test/fast:
 .PHONY : point_test/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named pose_test
 
 # Build rule for target.
@@ -601,6 +727,58 @@ compare_test: cmake_check_build_system
 compare_test/fast:
 	$(MAKE) -f Ctest/CMakeFiles/compare_test.dir/build.make Ctest/CMakeFiles/compare_test.dir/build
 .PHONY : compare_test/fast
+=======
+# Target rules for targets named circle_test
+
+# Build rule for target.
+circle_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 circle_test
+.PHONY : circle_test
+
+# fast build rule for target.
+circle_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/circle_test.dir/build.make Ctest/CMakeFiles/circle_test.dir/build
+.PHONY : circle_test/fast
+
+#=============================================================================
+# Target rules for targets named geo_compare_test
+
+# Build rule for target.
+geo_compare_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geo_compare_test
+.PHONY : geo_compare_test
+
+# fast build rule for target.
+geo_compare_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/geo_compare_test.dir/build.make Ctest/CMakeFiles/geo_compare_test.dir/build
+.PHONY : geo_compare_test/fast
+
+#=============================================================================
+# Target rules for targets named angle_test
+
+# Build rule for target.
+angle_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 angle_test
+.PHONY : angle_test
+
+# fast build rule for target.
+angle_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/angle_test.dir/build.make Ctest/CMakeFiles/angle_test.dir/build
+.PHONY : angle_test/fast
+
+#=============================================================================
+# Target rules for targets named line_test
+
+# Build rule for target.
+line_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 line_test
+.PHONY : line_test
+
+# fast build rule for target.
+line_test/fast:
+	$(MAKE) -f Ctest/CMakeFiles/line_test.dir/build.make Ctest/CMakeFiles/line_test.dir/build
+.PHONY : line_test/fast
+>>>>>>> google_test
 
 main.o: main.cpp.o
 
@@ -635,6 +813,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... edit_cache"
@@ -655,6 +836,10 @@ help:
 	@echo "... Continuous"
 	@echo "... Nightly"
 	@echo "... NightlySubmit"
+<<<<<<< HEAD
+=======
+	@echo "... install"
+>>>>>>> google_test
 	@echo "... NightlyStart"
 	@echo "... ExperimentalCoverage"
 	@echo "... NightlyCoverage"
@@ -667,14 +852,28 @@ help:
 	@echo "... NightlyBuild"
 	@echo "... ExperimentalBuild"
 	@echo "... geom"
+	@echo "... gmock_main"
+	@echo "... gmock"
+	@echo "... gtest_main"
+	@echo "... gtest"
 	@echo "... geometry2d"
 	@echo "... util"
+<<<<<<< HEAD
 	@echo "... line_test"
 	@echo "... angle_test"
 	@echo "... geo_compare_test"
 	@echo "... point_test"
 	@echo "... pose_test"
 	@echo "... compare_test"
+=======
+	@echo "... compare_test"
+	@echo "... pose_test"
+	@echo "... point_test"
+	@echo "... circle_test"
+	@echo "... geo_compare_test"
+	@echo "... angle_test"
+	@echo "... line_test"
+>>>>>>> google_test
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

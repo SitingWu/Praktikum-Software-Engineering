@@ -57,6 +57,7 @@ include geometry2d/CMakeFiles/geometry2d.dir/progress.make
 # Include the compile flags for this target's objects.
 include geometry2d/CMakeFiles/geometry2d.dir/flags.make
 
+<<<<<<< HEAD
 geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o: geometry2d/CMakeFiles/geometry2d.dir/flags.make
 geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o: ../geometry2d/src/point.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o"
@@ -129,10 +130,99 @@ geometry2d_OBJECTS = \
 "CMakeFiles/geometry2d.dir/src/angle.cpp.o" \
 "CMakeFiles/geometry2d.dir/src/line.cpp.o" \
 "CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o"
+=======
+geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.o: geometry2d/CMakeFiles/geometry2d.dir/flags.make
+geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.o: ../geometry2d/src/pose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.o"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && $(CMAKE_COMMAND) -E __run_co_compile --tidy=/usr/bin/clang-tidy --source="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.cpp" -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry2d.dir/src/pose.cpp.o -c "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.cpp"
+
+geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry2d.dir/src/pose.cpp.i"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.cpp" > CMakeFiles/geometry2d.dir/src/pose.cpp.i
+
+geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry2d.dir/src/pose.cpp.s"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/pose.cpp" -o CMakeFiles/geometry2d.dir/src/pose.cpp.s
+
+geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o: geometry2d/CMakeFiles/geometry2d.dir/flags.make
+geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o: ../geometry2d/src/point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && $(CMAKE_COMMAND) -E __run_co_compile --tidy=/usr/bin/clang-tidy --source="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.cpp" -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry2d.dir/src/point.cpp.o -c "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.cpp"
+
+geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry2d.dir/src/point.cpp.i"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.cpp" > CMakeFiles/geometry2d.dir/src/point.cpp.i
+
+geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry2d.dir/src/point.cpp.s"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/point.cpp" -o CMakeFiles/geometry2d.dir/src/point.cpp.s
+
+geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o: geometry2d/CMakeFiles/geometry2d.dir/flags.make
+geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o: ../geometry2d/src/angle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && $(CMAKE_COMMAND) -E __run_co_compile --tidy=/usr/bin/clang-tidy --source="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.cpp" -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry2d.dir/src/angle.cpp.o -c "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.cpp"
+
+geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry2d.dir/src/angle.cpp.i"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.cpp" > CMakeFiles/geometry2d.dir/src/angle.cpp.i
+
+geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry2d.dir/src/angle.cpp.s"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/angle.cpp" -o CMakeFiles/geometry2d.dir/src/angle.cpp.s
+
+geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o: geometry2d/CMakeFiles/geometry2d.dir/flags.make
+geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o: ../geometry2d/src/geo_compare.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && $(CMAKE_COMMAND) -E __run_co_compile --tidy=/usr/bin/clang-tidy --source="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.cpp" -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o -c "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.cpp"
+
+geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry2d.dir/src/geo_compare.cpp.i"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.cpp" > CMakeFiles/geometry2d.dir/src/geo_compare.cpp.i
+
+geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry2d.dir/src/geo_compare.cpp.s"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/geo_compare.cpp" -o CMakeFiles/geometry2d.dir/src/geo_compare.cpp.s
+
+geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: geometry2d/CMakeFiles/geometry2d.dir/flags.make
+geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o: ../geometry2d/src/line.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && $(CMAKE_COMMAND) -E __run_co_compile --tidy=/usr/bin/clang-tidy --source="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/line.cpp" -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry2d.dir/src/line.cpp.o -c "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/line.cpp"
+
+geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry2d.dir/src/line.cpp.i"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/line.cpp" > CMakeFiles/geometry2d.dir/src/line.cpp.i
+
+geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry2d.dir/src/line.cpp.s"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/line.cpp" -o CMakeFiles/geometry2d.dir/src/line.cpp.s
+
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o: geometry2d/CMakeFiles/geometry2d.dir/flags.make
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o: ../geometry2d/src/circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && $(CMAKE_COMMAND) -E __run_co_compile --tidy=/usr/bin/clang-tidy --source="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/circle.cpp" -- /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/geometry2d.dir/src/circle.cpp.o -c "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/circle.cpp"
+
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry2d.dir/src/circle.cpp.i"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/circle.cpp" > CMakeFiles/geometry2d.dir/src/circle.cpp.i
+
+geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry2d.dir/src/circle.cpp.s"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/geometry2d/src/circle.cpp" -o CMakeFiles/geometry2d.dir/src/circle.cpp.s
+
+# Object files for target geometry2d
+geometry2d_OBJECTS = \
+"CMakeFiles/geometry2d.dir/src/pose.cpp.o" \
+"CMakeFiles/geometry2d.dir/src/point.cpp.o" \
+"CMakeFiles/geometry2d.dir/src/angle.cpp.o" \
+"CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o" \
+"CMakeFiles/geometry2d.dir/src/line.cpp.o" \
+"CMakeFiles/geometry2d.dir/src/circle.cpp.o"
+>>>>>>> google_test
 
 # External object files for target geometry2d
 geometry2d_EXTERNAL_OBJECTS =
 
+<<<<<<< HEAD
 geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o
 geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.o
 geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o
@@ -143,6 +233,19 @@ geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libgeometry2d.a"
 	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && $(CMAKE_COMMAND) -P CMakeFiles/geometry2d.dir/cmake_clean_target.cmake
 	cd "/home/rose0901/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/geometry2d.dir/link.txt --verbose=$(VERBOSE)
+=======
+geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/src/pose.cpp.o
+geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/src/point.cpp.o
+geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/src/angle.cpp.o
+geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/src/geo_compare.cpp.o
+geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/src/line.cpp.o
+geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/src/circle.cpp.o
+geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/build.make
+geometry2d/libgeometry2d.a: geometry2d/CMakeFiles/geometry2d.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libgeometry2d.a"
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && $(CMAKE_COMMAND) -P CMakeFiles/geometry2d.dir/cmake_clean_target.cmake
+	cd "/home/benutzer/Dokumente/Praktikum Software Engineering/sel-homework_14/build/geometry2d" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/geometry2d.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> google_test
 
 # Rule to build all files generated by this target.
 geometry2d/CMakeFiles/geometry2d.dir/build: geometry2d/libgeometry2d.a
